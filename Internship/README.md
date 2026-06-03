@@ -21,17 +21,18 @@ domain: "Internship Program Management"
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| [`INTERNSHIP_DDMVSS.md`](INTERNSHIP_DDMVSS.md) | **Full program specification** — DDMVSS 9-category framework applied to the internship | Interns, Research Professionals, Axolotl Partners |
+| [`INTERNSHIP_SPECIFICATION.md`](INTERNSHIP_SPECIFICATION.md) | **Full program specification** — DDMVSS 9-category framework applied to the internship | Interns, Research Professionals, Axolotl Partners |
 | [`CURATION_LOG_TEMPLATE.md`](CURATION_LOG_TEMPLATE.md) | **Curation log schema and template** — append-only decision log for each intern's repo | Interns (maintain), Research Professionals (provide decisions) |
-| [`PROSPECTIVE_INTERN_GUIDE.md`](PROSPECTIVE_INTERN_GUIDE.md) | **What to expect** — verbose guide to the program philosophy, tools, research framework, cadence, team, and outcomes | Prospective interns |
 
 ### Onboarding & Getting Started
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
+| [`PROSPECTIVE_INTERN_GUIDE.md`](PROSPECTIVE_INTERN_GUIDE.md) | **What to expect** — verbose guide: philosophy, tools, entity-relationship research framework, 8-week cadence, team, outcomes | Prospective interns; read first |
 | [`TOOL_QUICKSTART.md`](TOOL_QUICKSTART.md) | **Tool quickstart** — bare-minimum getting-started for GitHub, Cline, Zed, and KiloCode | Interns (Week 1) |
-| [`AI_RESEARCH_LITERACY.md`](AI_RESEARCH_LITERACY.md) | **AI literacy dictionary** — key terms, principles, and resources for all 7 literacy areas | Interns (reference throughout) |
-| [`YOUNG_RESEARCHER_GUIDE.md`](YOUNG_RESEARCHER_GUIDE.md) | **Young researcher's guide** — how to think about researching with probabilistic, evolving AI tools | Interns (read before Week 1, return to often) |
+| [`AI_RESEARCH_LITERACY.md`](AI_RESEARCH_LITERACY.md) | **AI literacy dictionary** — 8 literacy areas with definitions, tiered links (beginner/intermediate/advanced), and a preamble on how to use it | Interns (skim Day 1, reference throughout) |
+| [`YOUNG_RESEARCHER_GUIDE.md`](YOUNG_RESEARCHER_GUIDE.md) | **Young researcher's guide** — how to think about researching with probabilistic, evolving AI tools; entity-relationship methodology | Interns (read before Week 1, return to often) |
+| [`FAQ.md`](FAQ.md) | **Frequently asked questions** — common Week 1 problems (GitHub, Cline, communication, ER diagrams) with solutions and escalation guidance | Interns (reference when stuck) |
 
 ---
 

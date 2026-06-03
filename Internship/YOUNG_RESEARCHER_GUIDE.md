@@ -15,7 +15,9 @@ domain: "Internship Program Management"
 
 ## 1. The Situation You Are In
 
-You are a beginner researcher working with beginner tools. This is not a disadvantage — it is the entire point of the internship. But it creates a specific set of challenges that no textbook on research methods prepared you for.
+You are a beginner researcher working with beginner tools. You have a specific job: **collect entities, map relationships, and trace change.** The first half of the program (Weeks 1-4) is about finding and describing the things that exist in your domain — the entities. The second half (Weeks 5-8) is about discovering how those entities connect — the relationships — and drawing those connections as mermaid ER diagrams. The temporal dimension runs through both halves: how are the entities and relationships changing over time, and what role is AI playing in that change?
+
+This is not a disadvantage — it is the entire point of the internship. But it creates a specific set of challenges that no textbook on research methods prepared you for.
 
 Your AI tools are, in mid-2026, astoundingly capable and deeply unreliable in the same breath. They can summarize a hundred papers in seconds but will invent citations for papers that do not exist. They can explain the mechanics of ERC-721 token standards with precision but will confidently describe a deprecated version as if it is current. They can help you build a CSV database of Swiss fermenters but will populate it with companies that went out of business in 2019.
 
@@ -151,9 +153,11 @@ But the AI has no mechanism for distinguishing between a memory of a real regula
 
 ---
 
-## 7. Building Domain Vocabulary
+## 7. Building Domain Vocabulary (Your Lexicon)
 
 A domain is inaccessible until you have its vocabulary. You cannot research Swiss fermentation if you do not know what *lacto-fermentation* means, what *Agroscope* is, or how *Bürli* differs from *Ruchbrot*. You cannot research tokenization if you do not know what *ERC-721* is, what *custody* means in a blockchain context, or how *DeFi* differs from *CeFi*.
+
+Building your lexicon — the dictionary of terms that have specific meaning in your domain — is the core work of entity collection. In the context of AI tools, these words are not just labels. They are tools (the right term unlocks a new layer of prompting), actions (naming something lets you ask the AI to do things with it), and maps (each term is a node in your eventual entity-relationship diagram).
 
 ### How to Build Vocabulary with AI
 

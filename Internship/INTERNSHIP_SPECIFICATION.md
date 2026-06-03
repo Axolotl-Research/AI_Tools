@@ -1,5 +1,5 @@
 ---
-title: "Axolotl Summer Internship Program — DDMVSS Specification"
+title: "Axolotl Summer Internship Program — Specification"
 audience: [interns, research-professionals, axolotl-partners]
 last_updated: 2026-06-03
 version: "1.0.0"
@@ -8,7 +8,7 @@ domain: "Internship Program Management"
 ddmvss_categories: [domain, capability, interface, composition, trust, observability, persistence, lifecycle, curation]
 ---
 
-# Axolotl Summer Internship Program — DDMVSS Specification
+# Axolotl Summer Internship Program — Specification
 
 **Purpose:** The minimum viable specification set for the Axolotl Partners summer internship program — an 8-week, AI-enabled research program for 1-3 interns, each pursuing a self-selected domain in collaboration with the Axolotl research team.
 
@@ -65,11 +65,17 @@ graph TB
     ProgramMgmt --> Tools
 ```
 
-### 1.2 Internship hLexicon
+### 1.2 Internship Lexicon
+
+A lexicon is the dictionary of terms that have specific meaning within a domain. In the context of AI tools, these words are not just labels — they are tools (the right term unlocks new prompting capabilities), actions (naming something lets you ask the AI to do things with it), and maps (each term is a node in your entity-relationship diagram). The intern builds their lexicon throughout the program, starting from Week 1.
 
 | Term | Context | Definition |
 |------|---------|------------|
+| `lexicon` | Concept | The dictionary of terms with specific meaning in a domain. In AI context, words are tools, actions, and maps — each term is a node in the entity-relationship framework. |
 | `research-cycle` | FlowDef | A single iteration of AI-enabled inquiry: prompt → synthesize → document → commit → curate |
+| `entity` | Concept | Anything that exists in the domain — a person, organization, concept, object, or process that can be named, described, and placed in an ER diagram |
+| `relationship` | Concept | How two entities connect — the verbs that link entities (researches, produces, regulates, enables) |
+| `er-diagram` | Artifact | A mermaid entity-relationship diagram that visualizes the domain's entities and their relationships |
 | `artifact` | Entity | Any markdown doc, code file, CSV, JSON, PDF, or agent skill produced by an intern and stored in their GitHub repository |
 | `research-professional` | Role | A member of the Axolotl Partners research team (Matt, Mike, Ivan, Mario) providing curation, guidance, and domain expertise |
 | `tool-session` | Entity | A bound interaction session with an AI tool (Cline, KiloCode, Zed Agent) |
@@ -79,8 +85,8 @@ graph TB
 | `cadence` | FlowDef | The weekly rhythm: research cycles punctuated by twice-weekly batch curation |
 | `curation-decision` | Event | A Merge/Revise/Defer/Discard evaluation recorded in `CURATION_LOG.md` |
 | `batch-review` | Event | Twice-weekly review of accumulated artifacts by one or more research professionals |
-| `syntax` | Concept | The mechanics of how things are done in the domain — procedures, methods, technical processes |
-| `semantics` | Concept | The schemas and concepts that define and describe the meaning of the domain — taxonomies, models, frameworks |
+| `syntax` | Concept | The mechanics of how things are done in the domain — procedures, methods, technical processes. In the entity-relationship framework, syntax describes what entities *do* and how they operate. |
+| `semantics` | Concept | The schemas and concepts that define and describe the meaning of the domain — taxonomies, models, frameworks. In the entity-relationship framework, semantics maps how entities *relate* and what those relationships *mean*. |
 | `temporal-analysis` | Concept | How the domain's syntax and semantics are changing over time, including AI's role in reshaping both |
 | `release-valve` | Mechanism | The WhatsApp group chat, available at any time when productive struggle becomes frustration |
 
@@ -123,6 +129,7 @@ graph TB
 | `query` | Knowledge base | AI tools | Intern | Domain exploration |
 | `build-skill` | Agent skill | Zed, Cline | Intern | Tool-specific or portable |
 | `build-database` | Structured data | Zed, Cline | Intern | CSV/JSON only |
+| `draw-er-diagram` | Entity relationships | Zed, Cline (mermaid) | Intern | Primary synthesis tool; maps entities to relationships |
 | `export-pdf` | Documentation | Zed, pandoc | Intern | As needed |
 | `check-in` | Status update | WhatsApp (Axolotl Interns group) | Intern | Async coordination |
 | `curate` | Artifact | GitHub (CURATION_LOG.md) | Research Professional | Merge/Revise/Defer/Discard |
@@ -143,6 +150,7 @@ The intern must demonstrate understanding of:
 | 5 | **ACP & A2A agent protocols** | Agent Communication Protocol, Agent-to-Agent interoperability |
 | 6 | **AI workflow transformation** | How AI applications are reshaping work processes across domains |
 | 7 | **Deterministic vs probabilistic compute** | Understanding that AI agents are non-deterministic; outputs require evaluation, not blind trust |
+| 8 | **Entity-Relationship Modeling** | Mapping domain entities and their relationships using mermaid ER diagrams; defining semantic spaces |
 
 ### 2.3 AI Tool Overlap Policy
 
