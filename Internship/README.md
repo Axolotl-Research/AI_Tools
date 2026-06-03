@@ -33,6 +33,8 @@ domain: "Internship Program Management"
 | [`AI_RESEARCH_LITERACY.md`](AI_RESEARCH_LITERACY.md) | **AI literacy dictionary** — 8 literacy areas with definitions, tiered links (beginner/intermediate/advanced), and a preamble on how to use it | Interns (skim Day 1, reference throughout) |
 | [`YOUNG_RESEARCHER_GUIDE.md`](YOUNG_RESEARCHER_GUIDE.md) | **Young researcher's guide** — how to think about researching with probabilistic, evolving AI tools; entity-relationship methodology | Interns (read before Week 1, return to often) |
 | [`FAQ.md`](FAQ.md) | **Frequently asked questions** — common Week 1 problems (GitHub, Cline, communication, ER diagrams) with solutions and escalation guidance | Interns (reference when stuck) |
+| [`PROMPT_CHEAT_SHEET.md`](PROMPT_CHEAT_SHEET.md) | **Prompting cheat sheet** — quick-reference card with prompts for every phase: entity collection, relationship mapping, ER diagrams, self-curation, grill-me, verification, format control | Interns (print it, keep it open) |
+| [`CURATED_LINKS.md`](CURATED_LINKS.md) | **Curated resource links** — standalone collection of best free resources across all literacy areas, Swiss-specific links, domain-specific links, YouTube tutorials | Interns (launchpad for learning) |
 
 ---
 
