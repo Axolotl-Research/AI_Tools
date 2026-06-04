@@ -81,7 +81,7 @@ domain: "Internship Program Management"
 - 🔴 [Attention Is All You Need (arXiv)](https://arxiv.org/abs/1706.03762) — The original transformer paper (2017)
 
 ### Model Comparisons & Benchmarks
-- 🟢 [LMSys Chatbot Arena](https://chat.lmsys.org/) — Community-driven blind model comparisons
+- 🟢 [LM Arena](https://lmarena.ai) — Community-driven blind model comparisons
 - 🟡 [Artificial Analysis](https://artificialanalysis.ai/) — Independent model benchmarks (speed, quality, price)
 - 🟡 [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — Benchmarks for open-source models
 - 🔴 [Papers With Code: NLP Benchmarks](https://paperswithcode.com/area/natural-language-processing) — Academic benchmarks and state-of-the-art
@@ -128,15 +128,15 @@ domain: "Internship Program Management"
 
 ## 5. ACP & A2A Agent Protocols
 
-### Agent-to-Agent (A2A) — Google
-- 🟢 [Google A2A Protocol](https://developers.google.com/agent-to-agent) — Official documentation and overview
-- 🟡 [A2A GitHub Repository](https://github.com/google/A2A) — Open-source implementation and examples
+### Agent-to-Agent (A2A) — Linux Foundation (originally Google)
+- 🟢 [A2A Protocol](https://a2a-protocol.org) — Official documentation and overview
+- 🟡 [A2A GitHub Repository](https://github.com/a2aproject/A2A) — Open-source implementation and examples
 - 🟡 [Google: Introducing A2A (blog)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — The announcement and vision
 
-### Agent Client Protocol (ACP) — part of A2A
+### Agent Client Protocol (ACP) — IBM's contribution to A2A
 - 🟢 [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction) — Official ACP documentation and introduction
 - 🟡 Ask Cline: "Explain the Agent Client Protocol and how it relates to A2A and MCP"
-- 🟢 Ask KiloCode: "What is ACP and how does it fit into the A2A ecosystem?"
+- 🟢 Ask KiloCode: "What is IBM ACP and how does it fit into the A2A ecosystem?"
 - 🔴 This is a fast-moving space in mid-2026 — use AI tools to stay current
 
 ### Agent Orchestration & Multi-Agent Systems

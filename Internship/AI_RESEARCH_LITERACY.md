@@ -91,7 +91,7 @@ domain: "Internship Program Management"
 **Why it matters:** Cline, KiloCode, and Zed Agent may use different underlying models. Each has different strengths, weaknesses, knowledge cutoffs, and behavioral tendencies. Knowing which model you are talking to helps you calibrate your trust.
 
 **Resources:**
-- 🟢 [LMSys Chatbot Arena](https://chat.lmsys.org/) — Community-driven model comparisons (see which models people prefer)
+- 🟢 [LM Arena (formerly LMSys Chatbot Arena)](https://lmarena.ai) — Community-driven model comparisons (see which models people prefer)
 - 🟡 [Anthropic Models Overview](https://docs.anthropic.com/en/docs/about-claude/models) — Claude model family
 - 🟡 [OpenAI Models Overview](https://platform.openai.com/docs/models) — GPT model family
 - 🔴 [Artificial Analysis](https://artificialanalysis.ai/) — Independent model benchmarks
@@ -114,7 +114,7 @@ domain: "Internship Program Management"
 ## 4. MCP Tools & Agent Skills
 
 ### Model Context Protocol (MCP)
-**Definition:** An open protocol — a standard set of rules — for how AI agents connect to external tools, data sources, and services. Think of it like USB for AI: a universal connector that lets any agent plug into any tool. MCP servers expose tools that agents can call — file systems, databases, APIs, web search, and more.
+**Definition:** An open protocol — a standard set of rules — for how AI agents connect to external tools, data sources, and services. Think of it like USB for AI: a universal connector that lets any agent plug into any tool. MCP servers expose tools that agents can call — file systems, databases, APIs, web search, and more. MCP supports two transports: stdio (the primary and recommended transport, where the server runs as a local subprocess) and Streamable HTTP (for remote servers).
 
 **Why it matters:** When Cline reads your files, runs terminal commands, or searches the web, it is likely using MCP under the hood. Understanding MCP helps you understand what your AI tools can and cannot reach. During the internship, you may build or configure MCP tools to extend your agent's capabilities.
 
@@ -143,18 +143,18 @@ domain: "Internship Program Management"
 ## 5. ACP & A2A Agent Protocols
 
 ### Agent Client Protocol (ACP)
-**Definition:** A protocol that standardizes communication between code editors/IDEs and coding agents — part of the A2A (Agent-to-Agent) protocol ecosystem. Similar to how LSP standardized language server integration, ACP decouples coding agents from specific editors so that any ACP-compatible agent works with any ACP-compatible editor. ([Official site](https://agentclientprotocol.com/get-started/introduction))
+**Definition:** A protocol that standardizes communication between code editors/IDEs and coding agents — IBM's contribution to the A2A (Agent-to-Agent) protocol ecosystem. Similar to how LSP standardized language server integration, ACP decouples coding agents from specific editors so that any ACP-compatible agent works with any ACP-compatible editor. ([Official site](https://agentclientprotocol.com/get-started/introduction))
 
 **Why it matters:** ACP is bleeding-edge (as of mid-2026). Understanding it — even at a conceptual level — puts you ahead of the curve. During the internship, you are already using multiple coding agents (Cline, KiloCode, Zed Agent) — ACP is the protocol that would let these agents plug into any editor through a standardized interface, rather than each requiring custom integrations.
 
 ### Agent-to-Agent (A2A) Protocol
-**Definition:** Google's protocol for agent interoperability, designed to let agents from different ecosystems discover each other, negotiate capabilities, and collaborate on tasks without human intermediation at every step.
+**Definition:** An open protocol for agent interoperability, originally developed by Google and now a Linux Foundation project. A2A lets agents from different ecosystems discover each other, negotiate capabilities, and collaborate on tasks without human intermediation at every step. IBM's ACP has been incorporated into A2A as the editor ↔ agent communication layer. ([Official site](https://a2a-protocol.org))
 
-**Why it matters:** A2A represents the frontier of agent infrastructure. Understanding agent-to-agent communication helps you think about the difference between using one AI tool and orchestrating multiple AI tools working together — a distinction that becomes relevant when you are using Cline, KiloCode, and Zed Agent simultaneously. ACP is the part of A2A that handles editor ↔ agent communication specifically.
+**Why it matters:** A2A represents the frontier of agent infrastructure. Understanding agent-to-agent communication helps you think about the difference between using one AI tool and orchestrating multiple AI tools working together — a distinction that becomes relevant when you are using Cline, KiloCode, and Zed Agent simultaneously. IBM ACP is the part of A2A that handles editor ↔ agent communication specifically.
 
 **Resources:**
-- 🟢 [Google A2A Protocol](https://developers.google.com/agent-to-agent) — Official documentation
-- 🟢 [Agent Client Protocol (ACP)](https://agentclientprotocol.com/get-started/introduction) — ACP official site (part of A2A)
+- 🟢 [A2A Protocol](https://a2a-protocol.org) — Official documentation (Linux Foundation)
+- 🟢 [Agent Client Protocol (ACP)](https://agentclientprotocol.com/get-started/introduction) — IBM ACP official site (part of A2A)
 - 🟡 Ask Cline: "Explain agent-to-agent protocols and why they matter"
 
 ### Agent Orchestration
