@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#12122a"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="50%" style="stop-color:#7b2ff7"/>
+      <stop offset="100%" style="stop-color:#c471ed"/>
+    </linearGradient>
+
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d2ff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00d2ff;stop-opacity:0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7b2ff7;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="48" fill="url(#bgGrad)"/>
+  <rect width="512" height="512" rx="48" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="280" cy="260" r="140" fill="url(#purpleGlow)"/>
+  <circle cx="340" cy="280" r="80" fill="url(#cyanGlow)"/>
+
+  <!-- Top accent line -->
+  <line x1="80" y1="40" x2="432" y2="40" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- ==================== AXOLOTL CHARACTER — Line art ==================== -->
+  <!-- Body — sitting at desk, facing right -->
+  <path d="M 170,350 C 168,310 172,280 180,260 C 185,248 195,242 205,242
+           C 215,242 222,248 225,258
+           C 228,275 230,310 228,350"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Belly curve -->
+  <path d="M 175,340 C 185,345 210,348 225,340"
+        fill="none" stroke="#c8a8c0" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Head — wide, flat axolotl shape -->
+  <path d="M 195,242 C 190,225 195,210 208,205
+           C 218,200 232,200 242,208
+           C 250,214 255,225 252,235
+           C 250,242 245,248 238,250
+           C 228,252 215,250 205,245
+           C 200,243 197,242 195,242 Z"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mouth — cute axolotl smile -->
+  <path d="M 240,238 C 244,242 248,242 252,238"
+        fill="none" stroke="#b898b0" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Eye — focused, looking right at screen -->
+  <circle cx="232" cy="222" r="4" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+  <circle cx="233" cy="222" r="2.5" fill="#1a1a2e"/>
+  <circle cx="234" cy="221" r="0.8" fill="#fff" opacity="0.6"/>
+
+  <!-- Eyebrow — slightly angled (concentration) -->
+  <path d="M 226,215 Q 231,212 238,214"
+        fill="none" stroke="#a888a0" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Nostril -->
+  <circle cx="248" cy="232" r="0.8" fill="#b898b0" opacity="0.5"/>
+
+  <!-- External gills — iconic axolotl feature -->
+  <!-- Left gill branch (top) -->
+  <path d="M 198,218 C 185,212 172,208 160,210"
+        fill="none" stroke="#e87090" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 175,212 C 170,205 165,202 158,205"
+        fill="none" stroke="#e87090" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 185,214 C 182,207 178,205 172,208"
+        fill="none" stroke="#e87090" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Left gill branch (middle) -->
+  <path d="M 195,228 C 180,226 165,228 155,232"
+        fill="none" stroke="#e87090" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 172,228 C 165,222 158,220 152,224"
+        fill="none" stroke="#e87090" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 182,229 C 176,224 170,223 164,226"
+        fill="none" stroke="#e87090" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Left gill branch (bottom) -->
+  <path d="M 196,238 C 182,240 168,244 160,250"
+        fill="none" stroke="#e87090" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 178,242 C 172,248 166,252 160,255"
+        fill="none" stroke="#e87090" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 186,240 C 180,246 175,248 170,252"
+        fill="none" stroke="#e87090" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Gill filaments — feathery tips -->
+  <circle cx="158" cy="205" r="2" fill="#e87090" opacity="0.5"/>
+  <circle cx="152" cy="224" r="2" fill="#e87090" opacity="0.5"/>
+  <circle cx="160" cy="255" r="2" fill="#e87090" opacity="0.5"/>
+
+  <!-- Left arm — elbow on desk, hand near chin -->
+  <path d="M 185,270 C 172,290 162,310 165,330"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 165,330 C 178,338 195,342 215,342"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small hand -->
+  <path d="M 215,342 C 220,340 225,338 228,335"
+        fill="none" stroke="#c8a8c0" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Right arm — reaching toward screen, holding stylus -->
+  <path d="M 225,265 C 245,272 270,285 295,298"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small hand holding stylus -->
+  <path d="M 295,298 C 300,300 305,298 308,295"
+        fill="none" stroke="#c8a8c0" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Tail curving behind -->
+  <path d="M 170,350 C 155,360 145,375 148,390 C 150,400 158,405 168,400 C 175,396 178,385 175,375"
+        fill="none" stroke="#c8a8c0" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- Tail fin -->
+  <path d="M 148,390 C 140,385 135,392 140,400 C 143,405 148,402 150,398"
+        fill="none" stroke="#e87090" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- ==================== DESK — Minimal line ==================== -->
+  <line x1="40" y1="370" x2="472" y2="370" stroke="#3a3a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Desk edge glow -->
+  <line x1="40" y1="370" x2="472" y2="370" stroke="url(#accentGrad)" stroke-width="0.8" opacity="0.15" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="65" y1="370" x2="65" y2="445" stroke="#3a3a5a" stroke-width="1" opacity="0.3"/>
+  <line x1="447" y1="370" x2="447" y2="445" stroke="#3a3a5a" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SCREEN — Minimal wireframe ==================== -->
+  <!-- Screen outline -->
+  <rect x="280" y="220" width="160" height="140" rx="6"
+        fill="none" stroke="#4a4a6a" stroke-width="1.5"/>
+  <!-- Screen glow border -->
+  <rect x="280" y="220" width="160" height="140" rx="6"
+        fill="none" stroke="url(#accentGrad)" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- ER Diagram on screen — clean line art -->
+  <!-- Entity: User -->
+  <rect x="295" y="238" width="38" height="20" rx="2"
+        fill="none" stroke="#00d2ff" stroke-width="0.8" opacity="0.7"/>
+  <text x="302" y="252" font-family="monospace" font-size="8" fill="#00d2ff" opacity="0.6">User</text>
+
+  <!-- Entity: Role -->
+  <rect x="370" y="238" width="38" height="20" rx="2"
+        fill="none" stroke="#7b2ff7" stroke-width="0.8" opacity="0.7"/>
+  <text x="377" y="252" font-family="monospace" font-size="8" fill="#7b2ff7" opacity="0.6">Role</text>
+
+  <!-- Entity: Permission -->
+  <rect x="332" y="280" width="38" height="20" rx="2"
+        fill="none" stroke="#c471ed" stroke-width="0.8" opacity="0.7"/>
+  <text x="337" y="294" font-family="monospace" font-size="7" fill="#c471ed" opacity="0.6">Perm</text>
+
+  <!-- Relationship lines -->
+  <line x1="333" y1="248" x2="370" y2="248" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+  <line x1="314" y1="258" x2="351" y2="280" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+  <line x1="389" y1="258" x2="351" y2="280" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Code lines -->
+  <line x1="295" y1="320" x2="340" y2="320" stroke="#00d2ff" stroke-width="1" opacity="0.25" stroke-linecap="round"/>
+  <line x1="305" y1="328" x2="335" y2="328" stroke="#7b2ff7" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <line x1="305" y1="336" x2="345" y2="336" stroke="#c471ed" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <line x1="295" y1="344" x2="320" y2="344" stroke="#00d2ff" stroke-width="1" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Screen stand -->
+  <line x1="360" y1="360" x2="360" y2="370" stroke="#4a4a6a" stroke-width="1.5" opacity="0.4"/>
+  <line x1="340" y1="370" x2="380" y2="370" stroke="#4a4a6a" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- ==================== STYLUS — Glowing line ==================== -->
+  <line x1="308" y1="295" x2="322" y2="282" stroke="#d0d0d0" stroke-width="2" stroke-linecap="round"/>
+  <!-- Stylus tip glow -->
+  <circle cx="322" cy="282" r="8" fill="url(#cyanGlow)" filter="url(#strongGlow)"/>
+  <circle cx="322" cy="282" r="3" fill="#00d2ff" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="322" cy="282" r="1.5" fill="#00d2ff"/>
+
+  <!-- ==================== THOUGHT CLOUD — Geometric line art ==================== -->
+  <!-- Main cloud outline (dotted) -->
+  <ellipse cx="400" cy="100" rx="80" ry="48"
+           fill="none" stroke="#00d2ff" stroke-width="0.8" opacity="0.15" stroke-dasharray="3,6"/>
+  <ellipse cx="330" cy="120" rx="35" ry="25"
+           fill="none" stroke="#00d2ff" stroke-width="0.8" opacity="0.12" stroke-dasharray="3,6"/>
+
+  <!-- Trail bubbles -->
+  <circle cx="280" cy="155" r="6" fill="none" stroke="#00d2ff" stroke-width="0.6" opacity="0.1"/>
+  <circle cx="258" cy="175" r="4" fill="none" stroke="#00d2ff" stroke-width="0.6" opacity="0.07"/>
+
+  <!-- ER node symbol in cloud -->
+  <g transform="translate(370, 80)" opacity="0.5">
+    <rect x="0" y="0" width="24" height="14" rx="2" fill="none" stroke="#00d2ff" stroke-width="0.8"/>
+    <line x1="4" y1="5" x2="20" y2="5" stroke="#00d2ff" stroke-width="0.5" opacity="0.4"/>
+    <line x1="4" y1="9" x2="16" y2="9" stroke="#00d2ff" stroke-width="0.5" opacity="0.3"/>
+  </g>
+
+  <!-- Neural network in cloud -->
+  <g transform="translate(420, 75)" opacity="0.45">
+    <circle cx="0" cy="0" r="2" fill="none" stroke="#c471ed" stroke-width="0.8"/>
+    <circle cx="-14" cy="-12" r="1.5" fill="none" stroke="#00d2ff" stroke-width="0.8"/>
+    <circle cx="14" cy="-12" r="1.5" fill="none" stroke="#00d2ff" stroke-width="0.8"/>
+    <circle cx="-12" cy="12" r="1.5" fill="none" stroke="#7b2ff7" stroke-width="0.8"/>
+    <circle cx="12" cy="12" r="1.5" fill="none" stroke="#7b2ff7" stroke-width="0.8"/>
+    <line x1="-12" y1="-10" x2="-1.5" y2="-1.5" stroke="#00d2ff" stroke-width="0.5" opacity="0.4"/>
+    <line x1="12" y1="-10" x2="1.5" y2="-1.5" stroke="#00d2ff" stroke-width="0.5" opacity="0.4"/>
+    <line x1="-1.5" y1="1.5" x2="-10" y2="10" stroke="#7b2ff7" stroke-width="0.5" opacity="0.4"/>
+    <line x1="1.5" y1="1.5" x2="10" y2="10" stroke="#7b2ff7" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Question mark -->
+  <text x="445" y="115" font-family="Georgia, serif" font-size="22" fill="#00d2ff" opacity="0.2" font-style="italic">?</text>
+
+  <!-- ==================== DECORATIVE ELEMENTS ==================== -->
+  <!-- Small floating dots — data particles -->
+  <circle cx="250" cy="200" r="1.5" fill="#00d2ff" opacity="0.2"/>
+  <circle cx="270" cy="180" r="1" fill="#7b2ff7" opacity="0.15"/>
+  <circle cx="310" cy="160" r="1.5" fill="#c471ed" opacity="0.15"/>
+  <circle cx="470" cy="200" r="1" fill="#00d2ff" opacity="0.15"/>
+  <circle cx="460" cy="250" r="1.5" fill="#7b2ff7" opacity="0.1"/>
+
+  <!-- Bottom accent line -->
+  <line x1="80" y1="472" x2="432" y2="472" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Accent dots -->
+  <circle cx="80" cy="472" r="2.5" fill="#00d2ff" opacity="0.3"/>
+  <circle cx="256" cy="472" r="2.5" fill="#7b2ff7" opacity="0.3"/>
+  <circle cx="432" cy="472" r="2.5" fill="#c471ed" opacity="0.3"/>
+
+</svg>

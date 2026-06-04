@@ -15,6 +15,12 @@ domain: "Internship Program Management"
 
 ---
 
+<div align="center">
+  <img src="internship-logo.svg" alt="Axolotl Internship Logo" width="280" />
+</div>
+
+---
+
 ## Documents
 
 ### Program Specification
