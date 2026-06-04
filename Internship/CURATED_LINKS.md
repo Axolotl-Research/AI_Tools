@@ -318,6 +318,28 @@ domain: "Internship Program Management"
 3. **Add your own discoveries.** When you find a great resource during your research, add it here. This file is meant to grow.
 4. **Use the tiers.** Start with 🟢 links when you are new to a topic. Graduate to 🟡 and 🔴 as your understanding deepens.
 5. **Ask AI tools to evaluate resources.** "Cline, is this link still current? Is there a better resource on this topic now?"
+6. **Pair online resources with Library books.** The [`Library/`](Library/) contains books and papers that complement these links. For each literacy area below, the Library has deeper readings you can feed to AI agents as context.
+
+---
+
+## Library Cross-References
+
+The online links above pair with the curated reading library at [`Library/`](Library/). Here is how they connect:
+
+| Literacy Area (above) | Library Folder | Key Resources |
+|----------------------|---------------|---------------|
+| §1 Git & GitHub Basics | — | No Library folder needed — use the online links and [`TOOL_QUICKSTART.md`](TOOL_QUICKSTART.md) |
+| §2 LLM Prompting | Research-Methodology | `outsmarting_liars.pdf` (verification), `Avoid_News_Dobelli.pdf` (information filtering) |
+| §3 LLM Model Ecosystem | Cognition-Extended-Mind | `Andy Clark - Supersizing the mind.pdf` (extended cognition), MAIA-Substack `the-master-algorithm.html` |
+| §4 MCP Tools & Agent Skills | — | See [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) for jargon demystification |
+| §5 ACP & A2A Agent Protocols | — | See [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) for jargon demystification |
+| §6 AI Workflow Transformation | Cognition-Extended-Mind | `Denning_InnovationLanguageAction.pdf`, `The-Paradox-of-Choice_Schwartz.pdf` |
+| §7 Deterministic vs Probabilistic | Probabilistic-Thinking | `Probabilistic Graphical Models - Principles and Techniques.pdf`, Research-Methodology `Superforecasting_tetlock.pdf` |
+| §8 ER Modeling & Semantic Spaces | Complexity-Systems-Thinking | `1993_Kauffman_The+Origins+of+Order.pdf`, `essential_tension-bahar.md` |
+| §9 General Research Methodology | Research-Methodology | `George_Polya_How_To_Solve_It_.pdf`, `Larson_problem-solving.pdf`, `fermi-problems-guide.pdf` |
+| §10 Domain-Specific Resources | Domain-A-Food-Systems / Domain-B-Tokenization | See [`Library/INDEX.md`](Library/INDEX.md) for full listing |
+
+See [`READING_ROADMAP.md`](READING_ROADMAP.md) for week-by-week guidance on when to read each Library resource.
 
 ---
 

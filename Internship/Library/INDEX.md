@@ -1,7 +1,29 @@
 # Internship Library — Curated Reading Index
 
-> Curated from `~/Clones/Library` to support the Axolotl Summer 2026 Internship objectives.
-> Each folder maps to one or more internship domains or competency areas defined in `INTERNSHIP_SPECIFICATION.md`.
+> These files come from the Axolotl Research library. They were selected because they may be useful, relevant, or of interest to interns working through the Summer 2026 program. They are not required reading — think of them as a shelf of books that the team has found valuable, organized by how they connect to the internship domains and competency areas defined in [`INTERNSHIP_SPECIFICATION.md`](../INTERNSHIP_SPECIFICATION.md).
+>
+> These files serve a dual purpose. You can read them yourself, of course — but you can also feed them to AI agents as context. A PDF or markdown file from this library given to Cline, KiloCode, or Zed as a reference can ground the agent's output in real domain knowledge instead of generic hallucination. Use them as resources for your research sessions, not just as reading material.
+>
+> For week-by-week guidance on what to read when, see [`READING_ROADMAP.md`](../READING_ROADMAP.md).
+
+### How to Use This Index
+
+1. **Find your domain.** Start with the folder that maps to your domain (Domain A or B), then explore cross-cutting folders.
+2. **Use the relevance column.** Each file has a one-line explanation of why it matters for this program. If the reason resonates with your current research phase, read it.
+3. **Feed files to AI agents.** When researching a topic, give the relevant PDF or markdown file to Cline, KiloCode, or Zed as context. This produces better results than prompting without source material.
+4. **Don't read everything.** The [`READING_ROADMAP.md`](../READING_ROADMAP.md) tells you what to read each week. Skip ahead if curiosity pulls you, but the roadmap keeps you on track.
+
+### Key Terms
+
+| Term | Definition |
+|------|------------|
+| **Entity-relationship (ER) diagram** | A visual map of the things (entities) in your domain and how they connect (relationships). The primary synthesis tool for this program. |
+| **Artifact** | Any markdown doc, code file, CSV, JSON, PDF, or agent skill produced by an intern and stored in their GitHub repository. |
+| **hLexicon** | The dictionary of terms with specific meaning in your domain. You build this throughout the program, starting in Week 1. |
+| **Curation** | The process where a research professional reviews your artifacts and records a decision: Merge, Revise, Defer, or Discard. |
+| **DAO** | Decentralized autonomous organization — an organization run by smart contracts on a blockchain, without centralized leadership. |
+| **DeFi** | Decentralized finance — financial services built on blockchain technology, without traditional intermediaries. |
+| **ULS** | Ultra-large-scale — systems so complex that no single stakeholder holds a complete mental model (e.g., national power grids, global supply chains). |
 
 ---
 
@@ -11,10 +33,10 @@
 |--------|--------------------|-------|
 | **Domain-A-Food-Systems** | Domain A: Fermented Food Systems & Swiss Food Ecosystem — syntax, semantics, temporal | 3 |
 | **Domain-B-Tokenization** | Domain B: Asset Tokenization & Cryptocurrencies — semantics, economic models, market structures | 5 |
-| **Complexity-Systems-Thinking** | Cross-cutting: ER modeling, semantic spaces, emergent behavior in both domains | 4 |
+| **Complexity-Systems-Thinking** | Cross-cutting: entity-relationship (ER) modeling, semantic spaces, emergent behavior in both domains | 4 |
 | **Research-Methodology** | Research cycle, verification reflex, productive struggle, curation | 10 |
-| **Probabilistic-Thinking** | Competency topic 7: Deterministic vs probabilistic compute; Domain B forecasting | 1 |
-| **Cognition-Extended-Mind** | Competency topic 6: AI workflow transformation; augmentation vs automation | 6 |
+| **Probabilistic-Thinking** | Competency topic 7: deterministic vs. probabilistic compute; Domain B forecasting | 1 |
+| **Cognition-Extended-Mind** | Competency topic 6: AI workflow transformation; augmentation vs. automation | 6 |
 | **MAIA-Substack/** | Curated readings on complexity, forecasting, learning, molecular biology, investment + MA Guidebook | 52 |
 
 ---
@@ -40,20 +62,20 @@ Supports Domain B: Asset Tokenization & Cryptocurrencies — syntax (token stand
 | `Damodaran Book on Investment Valuation, 2nd Edition.pdf` | Foundational valuation framework — tokenization requires understanding traditional asset valuation |
 | `Kessler_RunningMoney.pdf` | Capital allocation & markets — context for understanding DeFi capital flows |
 | `Seth_Klarman-Margin_of_Safety.pdf` | Risk-adjusted investing — critical for understanding crypto market risk |
-| `The+Nature+of+the+Firm.pdf` | Why firms exist — Coase theorem underpins understanding of DAOs and tokenized organizations |
+| `The+Nature+of+the+Firm.pdf` | Why firms exist — Coase theorem underpins understanding of decentralized autonomous organizations (DAOs) and tokenized organizations |
 | `competition_demystified__a_radically_simplified_approach_to_business_strategy.pdf` | Competitive dynamics — relevant to understanding crypto market competition |
 
 ---
 
 ## Complexity-Systems-Thinking
 
-Cross-cutting: supports ER modeling (topic 8), semantic spaces, and understanding emergent behavior in both fermented food systems and crypto markets.
+Cross-cutting: supports entity-relationship (ER) modeling (competency topic 8), semantic spaces, and understanding emergent behavior in both fermented food systems and crypto markets.
 
 | File | Relevance |
 |------|-----------|
 | `1993_Kauffman_The+Origins+of+Order.pdf` | Self-organization & emergence — foundational for understanding complex adaptive systems in both domains |
 | `Kauffman-AtHomeinthe Universe.pdf` | Accessible complexity science — connects to how fermentation ecosystems and crypto markets self-organize |
-| `ultra-large-scale-systems.pdf` | Ultra-large-scale systems engineering — relevant to understanding blockchain and food supply chain complexity |
+| `ultra-large-scale-systems.pdf` | Ultra-large-scale (ULS) systems engineering — relevant to understanding blockchain and food supply chain complexity |
 | `essential_tension-bahar.md` | Kuhn's essential tension between tradition and innovation — directly applicable to research methodology |
 
 ---
@@ -119,7 +141,7 @@ Curated Substack posts spanning complexity, forecasting, learning, molecular bio
 | `teaching-learning-and-ai.html` | AI & learning methodology |
 | `the-master-algorithm.html` | Machine learning paradigms |
 | `superforecasting.html` | Forecasting & probabilistic thinking |
-| `building-a-second-brain.html` | Knowledge management (PKM) |
+| `building-a-second-brain.html` | Knowledge management — personal knowledge management (PKM) systems |
 | `stuart-a-kauffman-readings.html` | Complexity science readings |
 | `the-molecular-switch-signaling-and.html` | Molecular biology (Domain A) |
 | `bottlenecks-and-critical-mass.html` | Systems bottlenecks |

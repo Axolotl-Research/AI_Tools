@@ -37,6 +37,25 @@ domain: "Internship Program Management"
 | [`PROMPT_CHEAT_SHEET.md`](PROMPT_CHEAT_SHEET.md) | **Prompting cheat sheet** — quick-reference card with prompts for every phase: entity collection, relationship mapping, ER diagrams, self-curation, grill-me, verification, format control | Interns (print it, keep it open) |
 | [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) | **AI Alphabet Soup** — demystifying MCP, ACP, A2A, LLM, API; why everything is just HTTP servers; how to spot jargon that obfuscates vs. enables | Interns (read when drowning in acronyms) |
 | [`CURATED_LINKS.md`](CURATED_LINKS.md) | **Curated resource links** — standalone collection of best free resources across all literacy areas, Swiss-specific links, domain-specific links, YouTube tutorials | Interns (launchpad for learning) |
+| [`ONBOARDING_CHECKLIST.md`](ONBOARDING_CHECKLIST.md) | **Onboarding checklist** — Day-by-Day Week 1 checklist with exit criteria, orientation reading, and self-check | Interns (Week 1) |
+| [`READING_ROADMAP.md`](READING_ROADMAP.md) | **Reading roadmap** — week-by-week guidance on which Library files to read and when, aligned to the 8-week timeline | Interns (reference throughout) |
+
+### Reading Library
+
+| Folder | Internship Mapping | Key Resources |
+|--------|--------------------|-------------|
+| [`Library/`](Library/) | **Curated reading library** — books and papers mapped to internship domains and competency areas | Interns (reference throughout program) |
+| [`Library/INDEX.md`](Library/INDEX.md) | **Library index** — every file with its relevance to the internship specification | Interns, Research Professionals |
+| [`Library/Domain-A-Food-Systems/`](Library/Domain-A-Food-Systems/) | Domain A: Fermented Food Systems & Swiss Food Ecosystem | Domain A interns |
+| [`Library/Domain-B-Tokenization/`](Library/Domain-B-Tokenization/) | Domain B: Asset Tokenization & Cryptocurrencies | Domain B interns |
+| [`Library/AI-Literacy/`](Library/AI-Literacy/) | AI literacy topics 2–5: LLM prompting, model ecosystem, MCP tools, A2A protocols | All interns |
+| [`Library/Research-Methodology/`](Library/Research-Methodology/) | Research cycle, verification, forecasting, problem-solving | All interns |
+| [`Library/Probabilistic-Thinking/`](Library/Probabilistic-Thinking/) | Competency topic 7: deterministic vs. probabilistic compute | All interns |
+| [`Library/Cognition-Extended-Mind/`](Library/Cognition-Extended-Mind/) | Competency topic 6: AI workflow transformation | All interns |
+| [`Library/Complexity-Systems-Thinking/`](Library/Complexity-Systems-Thinking/) | Cross-cutting: ER modeling, semantic spaces, emergent behavior | All interns |
+| [`Library/MAIA-Substack/`](Library/MAIA-Substack/) | Curated Substack readings + MA Guidebook | All interns |
+
+See also: [`READING_ROADMAP.md`](READING_ROADMAP.md) — week-by-week reading guidance aligned to the 8-week timeline.
 
 ---
 
@@ -85,11 +104,28 @@ domain: "Internship Program Management"
 
 The capstone deliverable must survive **grill-me interrogation** — a Socratic examination that probes the domain from Level 1 (Recall) through Level 5 (Synthesis & Novel Scenarios). If the intern can defend their work through this questioning, the deliverable meets the bar.
 
-See: `~/.agents/skills/grill-me/SKILL.md`
+**How grill-me works:** The grill-me skill (defined in `~/.agents/skills/grill-me/SKILL.md`) conducts an oral examination in rounds. Each round asks 2-3 questions at escalating difficulty:
+
+| Level | What It Tests | Example Question |
+|-------|---------------|-----------------|
+| **1. Recall** | Can you define the term? | "What is lacto-fermentation?" |
+| **2. Mechanism** | Can you explain how it works? | "How does Lactobacillus convert sugars to lactic acid?" |
+| **3. Rationale** | Can you explain why it is designed this way? | "Why do Swiss producers use mixed-strain cultures instead of single strains?" |
+| **4. Edge Cases** | What happens when it breaks? | "What happens when the pH drops below the organism's tolerance during fermentation?" |
+| **5. Synthesis** | Can you extend or redesign it? | "If you had to design a monitoring system for small-scale Swiss fermenters, what would it look like?" |
+
+The grill-me skill tracks your performance across areas and gives a summary assessment with specific recommendations for what to study next. **Finding, loading, and using the grill-me skill is part of your learning journey** — one of your key assignments is to discover it and use it to test your framework.
+
+See also:
+- [`WRITING_EXCELLENCE.md`](WRITING_EXCELLENCE.md) — how the four writing tests (Hopper, Lovelace, Schriver, Gentle) connect to grill-me levels
+- [`PROSPECTIVE_INTERN_GUIDE.md`](PROSPECTIVE_INTERN_GUIDE.md) §"The Deliverable" — detailed explanation of the grill-me standard
+- `~/.agents/skills/grill-me/SKILL.md` — the full skill definition
 
 ---
 
 ## Quick Start — Week 1 (Onboarding)
+
+For a detailed Day 1-5 walkthrough, see [`ONBOARDING_CHECKLIST.md`](ONBOARDING_CHECKLIST.md).
 
 1. [ ] All tool accounts provisioned and accessible
 2. [ ] GitHub repository created in Axolotl-Research org
