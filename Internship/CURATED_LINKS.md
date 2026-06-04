@@ -133,9 +133,10 @@ domain: "Internship Program Management"
 - 🟡 [A2A GitHub Repository](https://github.com/google/A2A) — Open-source implementation and examples
 - 🟡 [Google: Introducing A2A (blog)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — The announcement and vision
 
-### Agent Communication Protocol (ACP)
-- 🟡 Ask Cline: "Explain the Agent Communication Protocol and its relationship to MCP"
-- 🟢 Ask KiloCode: "What is ACP and how does it differ from A2A?"
+### Agent Client Protocol (ACP) — part of A2A
+- 🟢 [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction) — Official ACP documentation and introduction
+- 🟡 Ask Cline: "Explain the Agent Client Protocol and how it relates to A2A and MCP"
+- 🟢 Ask KiloCode: "What is ACP and how does it fit into the A2A ecosystem?"
 - 🔴 This is a fast-moving space in mid-2026 — use AI tools to stay current
 
 ### Agent Orchestration & Multi-Agent Systems

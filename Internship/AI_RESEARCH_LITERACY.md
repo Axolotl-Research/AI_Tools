@@ -142,18 +142,19 @@ domain: "Internship Program Management"
 
 ## 5. ACP & A2A Agent Protocols
 
-### Agent Communication Protocol (ACP)
-**Definition:** A proposed standard for how AI agents communicate with each other — passing tasks, sharing context, negotiating capabilities, and coordinating workflows. Think of it as a common language that lets different AI agents work together as a team.
+### Agent Client Protocol (ACP)
+**Definition:** A protocol that standardizes communication between code editors/IDEs and coding agents — part of the A2A (Agent-to-Agent) protocol ecosystem. Similar to how LSP standardized language server integration, ACP decouples coding agents from specific editors so that any ACP-compatible agent works with any ACP-compatible editor. ([Official site](https://agentclientprotocol.com/get-started/introduction))
 
-**Why it matters:** ACP is bleeding-edge (as of mid-2026). Understanding it — even at a conceptual level — puts you ahead of the curve. During the internship, you may encounter ACP when multiple agents (e.g., Cline + a specialized research agent) need to coordinate on a complex task.
+**Why it matters:** ACP is bleeding-edge (as of mid-2026). Understanding it — even at a conceptual level — puts you ahead of the curve. During the internship, you are already using multiple coding agents (Cline, KiloCode, Zed Agent) — ACP is the protocol that would let these agents plug into any editor through a standardized interface, rather than each requiring custom integrations.
 
 ### Agent-to-Agent (A2A) Protocol
 **Definition:** Google's protocol for agent interoperability, designed to let agents from different ecosystems discover each other, negotiate capabilities, and collaborate on tasks without human intermediation at every step.
 
-**Why it matters:** Like ACP, A2A represents the frontier of agent infrastructure. Understanding agent-to-agent communication helps you think about the difference between using one AI tool and orchestrating multiple AI tools working together — a distinction that becomes relevant when you are using Cline, KiloCode, and Zed Agent simultaneously.
+**Why it matters:** A2A represents the frontier of agent infrastructure. Understanding agent-to-agent communication helps you think about the difference between using one AI tool and orchestrating multiple AI tools working together — a distinction that becomes relevant when you are using Cline, KiloCode, and Zed Agent simultaneously. ACP is the part of A2A that handles editor ↔ agent communication specifically.
 
 **Resources:**
 - 🟢 [Google A2A Protocol](https://developers.google.com/agent-to-agent) — Official documentation
+- 🟢 [Agent Client Protocol (ACP)](https://agentclientprotocol.com/get-started/introduction) — ACP official site (part of A2A)
 - 🟡 Ask Cline: "Explain agent-to-agent protocols and why they matter"
 
 ### Agent Orchestration
@@ -281,7 +282,7 @@ erDiagram
 | 2 | LLM Prompting | Designing effective inputs for language models | Can you write a prompt that produces a specific, verifiable, well-structured research output? |
 | 3 | LLM Ecosystem | Model families, capabilities, and limitations | Can you identify which model you are talking to and calibrate your trust accordingly? |
 | 4 | MCP & Agent Skills | Tool-use protocols and reusable agent capabilities | Can you find, load, and use an agent skill (like grill-me)? |
-| 5 | ACP & A2A | Agent-to-agent communication standards | Can you explain how multiple AI agents coordinate on a task? |
+| 5 | ACP & A2A | Agent-client and agent-to-agent communication standards | Can you explain how editors talk to agents (ACP) and how agents talk to each other (A2A)? |
 | 6 | Workflow Transformation | How AI reshapes work processes | Can you articulate what changed in your own research workflow because of AI? |
 | 7 | Deterministic vs. Probabilistic | The fundamental nature of LLMs | If Cline gives two different answers to the same question, do you understand *why*? |
 | 8 | Entity-Relationship Modeling | Mapping entities and their relationships to define semantic spaces | Can you draw a mermaid ER diagram of your domain's key entities and their relationships? |

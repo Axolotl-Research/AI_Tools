@@ -73,31 +73,31 @@ Now think of an AI system. Cline (an AI agent) talks to Claude (an AI model runn
 
 ---
 
-#### ACP — Agent Communication Protocol
+#### ACP — Agent Client Protocol
 
-**What it actually is:** An HTTP server — plus a specification for what messages it sends and receives — designed to expose an *agent* (not just a tool) that other agents can talk to. If MCP is "here is a hammer you can use," ACP is "here is a carpenter who knows how to use the hammer, and you can delegate work to them."
+**What it actually is:** A protocol that standardizes communication between code editors/IDEs and coding agents — similar to how LSP standardized language server integration. If MCP is "here is a hammer you can use," ACP is "here is a standardized way for your editor to talk to the carpenter." ACP is part of the A2A (Agent-to-Agent) protocol ecosystem. ([Official site](https://agentclientprotocol.com/get-started/introduction))
 
-**The old idea it is built on:** Service-oriented architecture. Microservices. One program delegating work to another program over HTTP. ACP standardizes *how agents delegate to other agents* — what information gets passed, how capabilities are discovered, how tasks are negotiated.
+**The old idea it is built on:** The Language Server Protocol (LSP). Just as LSP decoupled language support from specific editors, ACP decouples coding agents from specific editors. Before ACP, every agent-editor combination required custom integration work. ACP defines a common protocol so that any ACP-compatible agent works with any ACP-compatible editor.
 
-**Plain English:** MCP lets an AI agent use a tool. ACP lets an AI agent hire another AI agent. The "ACP server" is an agent that listens for work requests, does the work (using its own tools and models), and returns the result. The agent doing the hiring does not need to know *how* the other agent works — just what it can do and how to ask.
+**Plain English:** MCP lets an AI agent use a tool. A2A lets agents talk to each other. ACP — as part of A2A — standardizes the specific conversation between an editor/IDE and a coding agent. An editor that supports ACP can work with any ACP-compatible agent (local or remote), and an agent that implements ACP works with any ACP-compatible editor.
 
 **The acronym stripped bare:**
 
 | Fancy Term | What It Means |
 |-------------|---------------|
-| Agent | Software that can make decisions and take actions (not just a passive tool) |
-| Communication | Agents talking to each other |
-| Protocol | The rules for how they talk |
+| Agent | A coding agent (like Cline, Zed Agent) that can take actions in your codebase |
+| Client | The code editor/IDE that wants to use the agent |
+| Protocol | The rules for how the editor and agent talk to each other |
 
 ---
 
-#### A2A — Agent-to-Agent (Google's version)
+#### A2A — Agent-to-Agent (Google's protocol)
 
-**What it actually is:** Google's answer to the same problem ACP addresses — how agents talk to each other. Same core idea: an HTTP server that exposes an agent's capabilities and accepts work requests from other agents. Different specification, different company, same fundamental architecture.
+**What it actually is:** Google's protocol for agent interoperability — how agents discover each other, negotiate capabilities, and collaborate on tasks without human intermediation at every step. ACP (Agent Client Protocol) is part of the A2A ecosystem, specifically handling the editor ↔ agent communication layer.
 
-**Why there are two competing standards:** Because this is bleeding-edge technology in mid-2026, and standardization battles happen when an idea is new and valuable. Think VHS vs. Betamax, or Bluetooth vs. early proprietary wireless protocols. Eventually one standard may win, they may converge, or both may coexist serving different ecosystems.
+**How ACP fits into A2A:** A2A is the broader protocol for agent-to-agent communication. ACP is the component of A2A that standardizes how a code editor/IDE (the client) talks to a coding agent. Think of A2A as the full networking stack and ACP as the application layer that sits between your editor and the agent.
 
-**Does this matter to you right now?** Not much. Know that both exist. Know that they are solving the same problem. As you use Cline, KiloCode, and Zed Agent together, you are implicitly doing agent orchestration — even if you are not using ACP or A2A directly. You are the human orchestrator routing tasks between agents. ACP and A2A are attempts to automate the orchestrator role.
+**Does this matter to you right now?** Not much for day-to-day work, but conceptually it helps to know the stack. As you use Cline, KiloCode, and Zed Agent together, you are implicitly doing agent orchestration — even if you are not using ACP or A2A directly. You are the human orchestrator routing tasks between agents. A2A (with ACP as its client-facing component) is an attempt to standardize and automate the orchestrator role.
 
 ---
 
@@ -105,13 +105,13 @@ Now think of an AI system. Cline (an AI agent) talks to Claude (an AI model runn
 
 | | MCP | ACP | A2A |
 |---|-----|-----|-----|
-| **What it exposes** | Tools | Agents | Agents |
-| **Analogy** | A hammer | A carpenter | A carpenter (different union) |
-| **Who made it** | Anthropic | Community/IETF-adjacent | Google |
+| **What it connects** | Agent → Tools | Editor → Agent | Agent → Agent |
+| **Analogy** | A hammer | A work order form | A team meeting |
+| **Who made it** | Anthropic | Community (part of A2A) | Google |
 | **Status (mid-2026)** | Widely adopted | Emerging | Emerging |
-| **What the server IS** | HTTP server with tool endpoints | HTTP server with agent endpoints | HTTP server with agent endpoints |
-| **What you do with it** | "Read this file" | "Research this topic and report back" | "Research this topic and report back" |
-| **Granularity** | Single action | Multi-step task | Multi-step task |
+| **What the server IS** | HTTP server with tool endpoints | Agent process (local/remote) | HTTP server with agent endpoints |
+| **What you do with it** | "Read this file" | "Run this agent in my editor" | "Research this topic and report back" |
+| **Granularity** | Single action | Agent session | Multi-step task |
 
 ---
 
@@ -134,7 +134,7 @@ flowchart TB
     MCP_FS -->|MCP: file contents| CLINE
     CLINE -->|MCP: write file| MCP_FS
     MCP_FS -->|local I/O| DISK
-    CLINE -->|maybe ACP/A2A someday| OTHER_AGENT[Another AI Agent]
+    CLINE -->|maybe A2A someday| OTHER_AGENT[Another AI Agent]
     OTHER_AGENT -->|results| CLINE
     CLINE -->|response| YOU
 ```
@@ -155,7 +155,7 @@ Most AI acronyms follow this structure:
 |---------|------|-----|----------|
 | LLM | Language | Large | Model |
 | MCP | Model | Context | Protocol |
-| ACP | Agent | Communication | Protocol |
+| ACP | Agent | Client | Protocol |
 | A2A | Agent | to Agent | (implicit protocol) |
 | RDF | Resource | Description | Framework |
 | API | Application | Programming | Interface |
@@ -185,7 +185,7 @@ A lot of AI terminology is genuinely new and necessary — you cannot talk about
 | AI Term | Old Name | What It Actually Is |
 |---------|----------|---------------------|
 | MCP Server | API Server / Microservice | An HTTP server with a standardized message format for tool use |
-| ACP/A2A Server | Service / Microservice | An HTTP server that exposes an agent instead of a tool |
+| ACP/A2A Server | Service / Microservice | A2A: an HTTP server that exposes an agent; ACP: a standardized interface for editor-agent communication |
 | Agent orchestration | Workflow automation / Service orchestration | Coordinating multiple services to complete a task |
 | Tool use / Function calling | API call / RPC | One program asking another program to do something |
 | Embedding | Vector / Feature vector | A list of numbers representing something (a word, a sentence, an image) in a high-dimensional space |

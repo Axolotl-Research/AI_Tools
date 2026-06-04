@@ -149,7 +149,7 @@ The intern must demonstrate understanding of:
 | 2 | **LLM prompting** | Prompt engineering, iteration, evaluating outputs, recognizing hallucinations |
 | 3 | **LLM model ecosystem** | Model families, context windows, token limits, model selection |
 | 4 | **MCP tools & agent skills** | Model Context Protocol, tool creation and consumption |
-| 5 | **ACP & A2A agent protocols** | Agent Communication Protocol, Agent-to-Agent interoperability |
+| 5 | **ACP & A2A agent protocols** | Agent Client Protocol (part of A2A), Agent-to-Agent interoperability |
 | 6 | **AI workflow transformation** | How AI applications are reshaping work processes across domains |
 | 7 | **Deterministic vs probabilistic compute** | Understanding that AI agents are non-deterministic; outputs require evaluation, not blind trust |
 | 8 | **Entity-Relationship Modeling** | Mapping domain entities and their relationships using mermaid ER diagrams; defining semantic spaces |
