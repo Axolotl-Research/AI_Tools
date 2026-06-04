@@ -181,7 +181,7 @@ Twice a week, a research professional reviews your artifacts and makes a decisio
 1. **Read the rationale carefully.** The decision (Merge/Revise/Defer/Discard) is less important than the *why*. What did the expert see that you missed? What assumption did you make that does not hold?
 2. **Do not get defensive.** A Revise is not a criticism of you — it is a map of the gap between your current understanding and expert understanding. That gap is why you are here. Closing it is the work.
 3. **Address action items promptly.** If Ivan says "split the fermentation_type column into primary_organism and fermentation_category," do it before the next batch review. Do not let action items accumulate.
-4. **Review the feedback on GitHub.** The `CURATION_LOG.md` is not a chore — it is the story of your intellectual development. Your commit history and GitHub review threads show exactly how your thinking evolved.
+4. **Review the feedback carefully.** The curation process is not a chore — it is the story of your intellectual development. Your commit history and GitHub review threads show exactly how your thinking evolved.
 5. **Notice patterns in the feedback.** If three Revise decisions all point to the same weakness (e.g., "your syntax is detailed but your semantics are shallow"), that is a signal about where to focus your next research cycles.
 
 ### When You Disagree with a Curation Decision
