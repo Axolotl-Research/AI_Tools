@@ -23,6 +23,7 @@ domain: "Internship Program Management"
 |----------|---------|----------|
 | [`INTERNSHIP_SPECIFICATION.md`](INTERNSHIP_SPECIFICATION.md) | **Full program specification** — DDMVSS 9-category framework applied to the internship | Interns, Research Professionals, Axolotl Partners |
 | [`CURATION_LOG_TEMPLATE.md`](CURATION_LOG_TEMPLATE.md) | **Curation log schema and template** — append-only decision log for each intern's repo | Interns (maintain), Research Professionals (provide decisions) |
+| [`WRITING_EXCELLENCE.md`](WRITING_EXCELLENCE.md) | **Writing Excellence Protocol** — the four tests (Hopper, Lovelace, Schriver, Gentle) for documentation quality; adapted for internship artifacts | Interns (quality standard for all artifacts) |
 
 ### Onboarding & Getting Started
 
@@ -34,6 +35,7 @@ domain: "Internship Program Management"
 | [`YOUNG_RESEARCHER_GUIDE.md`](YOUNG_RESEARCHER_GUIDE.md) | **Young researcher's guide** — how to think about researching with probabilistic, evolving AI tools; entity-relationship methodology | Interns (read before Week 1, return to often) |
 | [`FAQ.md`](FAQ.md) | **Frequently asked questions** — common Week 1 problems (GitHub, Cline, communication, ER diagrams) with solutions and escalation guidance | Interns (reference when stuck) |
 | [`PROMPT_CHEAT_SHEET.md`](PROMPT_CHEAT_SHEET.md) | **Prompting cheat sheet** — quick-reference card with prompts for every phase: entity collection, relationship mapping, ER diagrams, self-curation, grill-me, verification, format control | Interns (print it, keep it open) |
+| [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) | **AI Alphabet Soup** — demystifying MCP, ACP, A2A, LLM, API; why everything is just HTTP servers; how to spot jargon that obfuscates vs. enables | Interns (read when drowning in acronyms) |
 | [`CURATED_LINKS.md`](CURATED_LINKS.md) | **Curated resource links** — standalone collection of best free resources across all literacy areas, Swiss-specific links, domain-specific links, YouTube tutorials | Interns (launchpad for learning) |
 
 ---

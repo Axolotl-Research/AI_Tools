@@ -154,7 +154,7 @@ Cline is better for:
 - You are confused but curious — the confusion is specific and you can articulate what you do not understand
 - You are frustrated but also learning — each attempt gets you closer
 
-**Rule of thumb:** Three different approaches, no progress = escalate.
+**Rule of thumb:** Three genuinely different approaches, no progress = escalate. "Genuinely different" means changing your method, not just your wording. Rephrasing a prompt three times is one approach. Rephrasing + starting a fresh session + trying a different AI tool = three genuinely different approaches.
 
 ### I feel like I am bothering the team with too many questions.
 
@@ -231,7 +231,7 @@ Share an artifact in WhatsApp and ask: "Is this the kind of thing I should be pr
 
 | Situation | Try This First | Then Escalate |
 |-----------|---------------|---------------|
-| Git push fails with "Permission denied" | GitHub SSH setup guide | WhatsApp |
+| Git push fails with "Permission denied" | [GitHub SSH setup guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) | WhatsApp |
 | Git merge conflict | GitHub merge conflict guide, ask Cline | WhatsApp |
 | Cline will not connect | Check API key and network | WhatsApp immediately |
 | Cline hallucinating | Fresh session, rephrase, verify | Flag in artifact; WhatsApp Ivan if critical |

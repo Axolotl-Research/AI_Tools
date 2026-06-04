@@ -13,6 +13,8 @@ domain: "Internship Program Management"
 
 **How to use:** Find the phase you are in (left column), pick a prompt pattern that matches what you need, customize the `[bracketed]` parts for your domain, and paste it into Cline, KiloCode, or Zed Agent.
 
+**Filling in the brackets:** Replace `[domain]` with your topic ("Swiss fermented food systems" or "asset tokenization"). Replace `[entity]`, `[entity A]`, `[entity B]` with specific entities from your lexicon ("lacto-fermentation," "Agroscope," "ERC-721"). Replace `[year]` with actual years. Replace `[list...]` with your actual lists. The brackets are prompts to substitute, not to keep.
+
 ---
 
 ## Phase 1: Entity Collection (Weeks 1-4)
@@ -105,7 +107,7 @@ domain: "Internship Program Management"
 ### The Five Essential Patterns
 
 | Pattern | Structure | Example |
-|---------|-----------|---------|
+|---------|-----------|----------|
 | **Role + Task + Format** | "You are a [role]. [Task]. [Format constraint]." | "You are a Swiss food scientist. Explain lacto-fermentation in 3 bullet points, with examples from Swiss cuisine." |
 | **Chain of Thought** | "Walk me through [process] step by step. At each step, explain what could go wrong." | "Walk me through deploying an ERC-20 token on Ethereum Sepolia testnet. At each step, explain what could go wrong." |
 | **Verify and Correct** | "You said [claim]. That is [wrong/incomplete] because [reason]. Acknowledge the correction and revise." | "You said Lactobacillus is the only bacteria in kimchi. That's wrong — Leuconostoc is also present. Acknowledge and revise." |

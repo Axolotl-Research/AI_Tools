@@ -20,11 +20,11 @@ GitHub is where everything lives. If it is not pushed to GitHub, it does not exi
 ### What You Must Be Able To Do (Week 1)
 
 ```bash
-# Clone your repo
+# Clone your repo (replace "your-repo-name" with your actual repository name)
 git clone https://github.com/Axolotl-Research/your-repo-name.git
 cd your-repo-name
 
-# Create a branch for your work
+# Create a branch for your work (replace "week1-research" with a descriptive branch name)
 git checkout -b week1-research
 
 # Check what you have changed
@@ -162,7 +162,7 @@ KiloCode (kilo.ai) is an AI coding agent similar to Cline. You will adopt it as 
 
 ### Where to Learn More
 
-- [KiloCode Documentation](https://kilo.ai/docs) — Official docs
+- [KiloCode Documentation](https://kilo.ai/docs) — Official docs (verify URL if broken; search "KiloCode documentation" as fallback)
 - Ask KiloCode: "How are you different from other AI coding agents?"
 
 ---

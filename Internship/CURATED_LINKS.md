@@ -361,8 +361,7 @@ domain: "Internship Program Management"
 ### Cline
 
 **Known resources (Cline is newer — the field is fast-moving):**
-- 🟢 [Official Cline YouTube Channel](https://www.youtube.com/@clinebot) — Search for this; official demos and tutorials
-- 🟡 Search YouTube for: `Cline AI coding agent tutorial` — New videos appear regularly
+- 🟢 Search YouTube for: `Cline AI coding agent tutorial 2025` — New videos appear regularly; search for the official Cline channel
 - 🟡 Search YouTube for: `Cline vs Copilot` or `Cline vs Cursor` — Comparison videos often show Cline workflow
 - 🟡 Search for AI tool roundup channels: **AI Jason**, **Matt Wolfe**, **The AI Advantage**, **Skill Leap AI**
 

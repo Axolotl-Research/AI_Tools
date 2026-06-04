@@ -10,6 +10,8 @@ ddmvss_categories: [domain, capability, interface, composition, trust, observabi
 
 # Axolotl Summer Internship Program — Specification
 
+**Note for interns:** This document uses the DDMVSS framework (Domain-Driven Minimum Viable Specification Set) — a specification methodology adapted from software architecture to program design. Terms like "hLexicon," "bounded context," "OCAP boundaries," and "ν-event types" are DDMVSS vocabulary. Intern-facing documents use simplified equivalents (e.g., "lexicon" instead of "hLexicon"). They refer to the same concepts. You do not need to understand DDMVSS deeply to use this specification — the table of contents below will route you to the parts relevant to your questions.
+
 **Purpose:** The minimum viable specification set for the Axolotl Partners summer internship program — an 8-week, AI-enabled research program for 1-3 interns, each pursuing a self-selected domain in collaboration with the Axolotl research team.
 
 **Core Axioms:**
