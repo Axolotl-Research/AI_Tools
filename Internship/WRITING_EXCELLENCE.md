@@ -12,7 +12,7 @@ ddmvss_categories: [curation]
 
 ## For Axolotl Partners Internship Research Artifacts
 
-**Purpose:** This protocol defines what makes a research artifact excellent — not just "done," but genuinely useful to another human and consumable by an AI agent. It adapts the four-dimension quality framework from the Kask/HKask project (Hopper, Lovelace, Schriver, Gentle) to the specific artifacts you produce: markdown research files, CSV datasets, JSON exports, mermaid ER diagrams, README files, and capstone deliverables.
+**Purpose:** This protocol defines what makes a research artifact excellent — not just "done," but genuinely useful to another human and consumable by an AI agent. It uses a four-dimension quality framework (Hopper, Lovelace, Schriver, Gentle) tailored to the specific artifacts you produce: markdown research files, CSV datasets, JSON exports, mermaid ER diagrams, README files, and capstone deliverables.
 
 **Why this matters:** Your artifacts are not homework. They are the permanent record of your research. Three months after the internship ends, Ivan should be able to open your repository, read your artifacts, and understand your framework without calling you. An AI agent should be able to consume your work as ground truth and produce correct answers. The grill-me skill should find substance, not gaps. These four tests ensure that happens.
 
@@ -147,7 +147,7 @@ When Cline reads your markdown file about Swiss food regulations and uses it to 
 
 ## 2. Voice and Style Standards
 
-These standards are lighter than the original Kask protocol — your artifacts are research, not software specifications — but the principles translate directly.
+Your artifacts are research, not software specifications, so these standards are lighter than a full specification protocol — but the principles translate directly.
 
 ### 2.1 Voice
 
@@ -235,4 +235,4 @@ The writing excellence tests and the grill-me quality bar reinforce each other. 
 
 ---
 
-*This protocol adapted from the Kask/HKask Writing Excellence Protocol (v0.3.0). The four-test framework (Hopper, Lovelace, Schriver, Gentle) is a project standard; the operational rules and artifact-specific checklists are tailored to the Axolotl Partners internship program.*
+*The four-test framework (Hopper, Lovelace, Schriver, Gentle) is a project standard; the operational rules and artifact-specific checklists are tailored to the Axolotl Partners internship program.*

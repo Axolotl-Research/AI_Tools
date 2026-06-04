@@ -181,7 +181,7 @@ No tool-authority hierarchy is imposed. The intern develops the discernment to n
 
 ### 3.2 Interface Equivalence
 
-Unlike hKask (where MCP ≡ CLI ≡ API), the internship interfaces serve distinct purposes:
+The internship interfaces serve distinct purposes:
 
 | Purpose | GitHub | WhatsApp | AI Tools |
 |---------|--------|----------|----------|
@@ -449,6 +449,4 @@ Artifact quantity, artifact quality, and comparative intern performance are NOT 
 
 ## References
 
-- DDMVSS Framework: [`Clones/hKask/docs/architecture/DDMVSS.md`](../../hKask/docs/architecture/DDMVSS.md)
-- DDMVSS Scaffold: [`Clones/hKask/docs/specifications/DDMVSS_SCAFFOLD.md`](../../hKask/docs/specifications/DDMVSS_SCAFFOLD.md)
 - Grill-Me Skill: `~/.agents/skills/grill-me/SKILL.md`

@@ -139,9 +139,4 @@ For a detailed Day 1-5 walkthrough, see [`ONBOARDING_CHECKLIST.md`](ONBOARDING_C
 6. [ ] WhatsApp introduction posted in Axolotl Interns group
 7. [ ] Domain lexicon draft started
 
----
 
-## References
-
-- DDMVSS Framework: `Clones/hKask/docs/architecture/DDMVSS.md`
-- DDMVSS Scaffold: `Clones/hKask/docs/specifications/DDMVSS_SCAFFOLD.md`
