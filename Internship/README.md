@@ -28,7 +28,6 @@ domain: "Internship Program Management"
 | Document | Purpose | Audience |
 |----------|---------|----------|
 | [`INTERNSHIP_SPECIFICATION.md`](INTERNSHIP_SPECIFICATION.md) | **Full program specification** — DDMVSS 9-category framework applied to the internship | Interns, Research Professionals, Axolotl Partners |
-| [`CURATION_LOG_TEMPLATE.md`](CURATION_LOG_TEMPLATE.md) | **Curation log schema and template** — append-only decision log for each intern's repo | Interns (maintain), Research Professionals (provide decisions) |
 | [`WRITING_EXCELLENCE.md`](WRITING_EXCELLENCE.md) | **Writing Excellence Protocol** — the four tests (Hopper, Lovelace, Schriver, Gentle) for documentation quality; adapted for internship artifacts | Interns (quality standard for all artifacts) |
 
 ### Onboarding & Getting Started
@@ -135,8 +134,7 @@ For a detailed Day 1-5 walkthrough, see [`ONBOARDING_CHECKLIST.md`](ONBOARDING_C
 
 1. [ ] All tool accounts provisioned and accessible
 2. [ ] GitHub repository created in Axolotl-Research org
-3. [ ] `CURATION_LOG.md` initialized from template
-4. [ ] First Cline research session completed
+3. [ ] First Cline research session completed
 5. [ ] First artifact committed and pushed
 6. [ ] WhatsApp introduction posted in Axolotl Interns group
 7. [ ] Domain hLexicon draft started

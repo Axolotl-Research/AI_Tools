@@ -166,11 +166,11 @@ You are not. The WhatsApp group exists for exactly this purpose. The team would 
 
 ### I got a Revise decision and I disagree with it.
 
-This is fine. Curation is a dialogue, not a decree. Do not ignore the decision — address it directly. Write your perspective in the `intern_notes` field of the curation log. Example: "I understand the concern about shallow organism taxonomy, but I believe the regulatory analysis needs the entity foundation first. Proposing we defer the taxonomy expansion to Week 6." Discuss in WhatsApp if needed.
+This is fine. Curation is a dialogue, not a decree. Do not ignore the decision — address it directly. Reply to the review comment on GitHub with your perspective. Example: "I understand the concern about shallow organism taxonomy, but I believe the regulatory analysis needs the entity foundation first. Proposing we defer the taxonomy expansion to Week 6." Discuss in WhatsApp if needed.
 
 ### All my curation decisions are Revise. Am I failing?
 
-**No.** A Revise is not a criticism — it is a map of the gap between your current understanding and expert understanding. That gap is why you are here. Early in the program, most decisions will be Revise. As your entity collection becomes more accurate, you will see Revise shift toward Merge. This shift is visible in your `CURATION_LOG.md` — it is one of the most satisfying patterns in the program.
+**No.** A Revise is not a criticism — it is a map of the gap between your current understanding and expert understanding. That gap is why you are here. Early in the program, most decisions will be Revise. As your entity collection becomes more accurate, you will see Revise shift toward Merge. This shift is visible in your GitHub review history — it is one of the most satisfying patterns in the program.
 
 ### What if I have not received a curation review in over 4 days?
 

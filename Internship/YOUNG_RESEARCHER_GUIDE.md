@@ -81,7 +81,7 @@ Sometimes you will encounter a claim you cannot verify — the source is paywall
 
 1. **Commit your artifact.** Even if it is rough. A rough artifact on GitHub is better than a polished artifact in your head.
 2. **Write a one-sentence reflection.** What did you learn? What surprised you? What do you need to verify? This goes in your artifact's header or in your intern notes.
-3. **Check the curation log.** Is there a batch review coming? Make sure your new artifacts are ready.
+3. **Commit and push promptly.** Make sure your new artifacts are ready for review.
 
 ---
 
@@ -181,7 +181,7 @@ Twice a week, a research professional reviews your artifacts and makes a decisio
 1. **Read the rationale carefully.** The decision (Merge/Revise/Defer/Discard) is less important than the *why*. What did the expert see that you missed? What assumption did you make that does not hold?
 2. **Do not get defensive.** A Revise is not a criticism of you — it is a map of the gap between your current understanding and expert understanding. That gap is why you are here. Closing it is the work.
 3. **Address action items promptly.** If Ivan says "split the fermentation_type column into primary_organism and fermentation_category," do it before the next batch review. Do not let action items accumulate.
-4. **Record everything in the curation log.** The `CURATION_LOG.md` is not a chore — it is the story of your intellectual development. Future you will read it and see exactly how your thinking evolved.
+4. **Review the feedback on GitHub.** The `CURATION_LOG.md` is not a chore — it is the story of your intellectual development. Your commit history and GitHub review threads show exactly how your thinking evolved.
 5. **Notice patterns in the feedback.** If three Revise decisions all point to the same weakness (e.g., "your syntax is detailed but your semantics are shallow"), that is a signal about where to focus your next research cycles.
 
 ### When You Disagree with a Curation Decision
@@ -189,7 +189,7 @@ Twice a week, a research professional reviews your artifacts and makes a decisio
 It happens. You might think a Defer decision is premature, or that a Revise asks for changes that would take your framework in the wrong direction. In these cases:
 
 1. **Do not ignore the decision.** Address it directly.
-2. **Write your perspective in the `intern_notes` field of the curation log.** "I understand the concern about shallow semantics, but I believe the regulatory analysis needs the syntax foundation first. Proposing we defer the semantic expansion to Week 6 instead."
+2. **Write your perspective as a reply to the review comment on GitHub.** "I understand the concern about shallow semantics, but I believe the regulatory analysis needs the syntax foundation first. Proposing we defer the semantic expansion to Week 6 instead."
 3. **Discuss in WhatsApp if needed.** Curation is a dialogue, not a decree.
 
 ---

@@ -1,5 +1,9 @@
 # AI_Tools
 
+<div align="center">
+  <img src="Internship/internship-logo.svg" alt="Axolotl Internship Logo" width="220" />
+</div>
+
 Axolotl Partners — tools, specifications, and resources for AI-enabled research.
 
 ## What Is This Repository
@@ -25,7 +29,6 @@ AI_Tools/
     ├── TOOL_QUICKSTART.md                       ← Bare-minimum getting-started for GitHub, Cline, Zed, KiloCode
     ├── FAQ.md                                   ← Common Week 1 problems with solutions
     ├── WRITING_EXCELLENCE.md                    ← Four writing tests (Hopper, Lovelace, Schriver, Gentle)
-    ├── CURATION_LOG_TEMPLATE.md                 ← Schema and template for the curation decision log
     └── Library/                                 ← Curated reading from the Axolotl Research library
         ├── INDEX.md                             ← Full index with relevance to each competency area
         ├── Domain-A-Food-Systems/               ← Fermented food systems & Swiss food ecosystem

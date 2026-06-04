@@ -85,7 +85,7 @@ A lexicon is the dictionary of terms that have specific meaning within a domain.
 | `deliverable` | Artifact | The capstone repository — a GitHub repo containing a report, program, website, or combination that demonstrates domain syntax/semantics understanding |
 | `onboarding` | Phase | Week 1: account provisioning, GitHub + one AI agent familiarization, domain scoping |
 | `cadence` | FlowDef | The weekly rhythm: research cycles punctuated by twice-weekly batch curation |
-| `curation-decision` | Event | A Merge/Revise/Defer/Discard evaluation recorded in `CURATION_LOG.md` |
+| `curation-decision` | Event | A Merge/Revise/Defer/Discard evaluation provided by research professionals during batch review |
 | `batch-review` | Event | Twice-weekly review of accumulated artifacts by one or more research professionals |
 | `syntax` | Concept | The mechanics of how things are done in the domain — procedures, methods, technical processes. In the entity-relationship framework, syntax describes what entities *do* and how they operate. |
 | `semantics` | Concept | The schemas and concepts that define and describe the meaning of the domain — taxonomies, models, frameworks. In the entity-relationship framework, semantics maps how entities *relate* and what those relationships *mean*. |
@@ -134,10 +134,10 @@ A lexicon is the dictionary of terms that have specific meaning within a domain.
 | `draw-er-diagram` | Entity relationships | Zed, Cline (mermaid) | Intern | Primary synthesis tool; maps entities to relationships |
 | `export-pdf` | Documentation | Zed, pandoc | Intern | As needed |
 | `check-in` | Status update | WhatsApp (Axolotl Interns group) | Intern | Async coordination |
-| `curate` | Artifact | GitHub (CURATION_LOG.md) | Research Professional | Merge/Revise/Defer/Discard |
+| `curate` | Artifact | GitHub (review comments, issues) | Research Professional | Merge/Revise/Defer/Discard |
 | `escalate` | Help request | WhatsApp (Axolotl Interns group) | Intern | Release valve |
 | `navigate` | Team dynamics | WhatsApp, direct | Mike | Unblocks communication issues |
-| `oversee` | Program quality | Curation log, WhatsApp | Matt | Program manager review |
+| `oversee` | Program quality | GitHub activity, WhatsApp | Matt | Program manager review |
 
 ### 2.2 AI Literacy Competency Topics
 
@@ -185,10 +185,10 @@ Unlike hKask (where MCP ≡ CLI ≡ API), the internship interfaces serve distin
 
 | Purpose | GitHub | WhatsApp | AI Tools |
 |---------|--------|----------|----------|
-| **Persistence** | ✅ Artifacts, curation log | ❌ | ❌ |
+| **Persistence** | ✅ Artifacts, review feedback | ❌ | ❌ |
 | **Coordination** | ❌ | ✅ Check-ins, escalation | ❌ |
 | **Research** | ❌ | ❌ | ✅ Prompting, synthesis |
-| **Curation** | ✅ CURATION_LOG.md | ⚠️ Informal feedback | ❌ |
+| **Curation** | ✅ Review comments, issues | ⚠️ Informal feedback | ❌ |
 | **Observability** | ✅ Commit history | ⚠️ Ephemeral | ⚠️ Session-scoped |
 
 ---
@@ -240,8 +240,7 @@ At program close (Week 8, or Week 11 if extended):
 
 1. Research professionals conduct final curation pass
 2. Intern confirms all artifacts committed and pushed
-3. `CURATION_LOG.md` finalized with closing entry
-4. Intern retains GitHub account; Axolotl-Research org access may be maintained for consulting follow-ups
+3. Intern retains GitHub account; Axolotl-Research org access may be maintained for consulting follow-ups
 5. Cline, KiloCode, Zed accounts: disposition determined by account type and licensing
 
 ---
@@ -254,7 +253,7 @@ At program close (Week 8, or Week 11 if extended):
 |--------|----------|-----------|----------|
 | **Research activity** | GitHub commit history | Continuous | Research professionals, Matt |
 | **Artifact growth** | Repository file count and structure | Weekly | Matt |
-| **Curation decisions** | `CURATION_LOG.md` entries | Twice-weekly | All research professionals |
+| **Curation decisions** | GitHub review comments | Twice-weekly | All research professionals |
 | **Status check-ins** | WhatsApp group messages | As-needed / natural cadence | All |
 | **Help requests** | WhatsApp escalation | On-demand | Matt ensures response |
 | **Deliverable progress** | Repository completeness | Weekly | Ivan (domain), Mario (AI methodology) |
@@ -279,8 +278,7 @@ At program close (Week 8, or Week 11 if extended):
 | **Databases** | Intern's GitHub repo | **CSV or JSON only** — no binary blobs (`.db`, `.sqlite`) | Git |
 | **PDF files** | Intern's GitHub repo | `.pdf` | Git (Git LFS if large) |
 | **Agent skills** | Intern's GitHub repo | Zed skill format or equivalent | Git |
-| **Curation log** | Intern's GitHub repo root | `CURATION_LOG.md` | Git |
-| **WhatsApp history** | WhatsApp | WhatsApp-native | ⚠️ Ephemeral — critical decisions captured in `CURATION_LOG.md` |
+| **WhatsApp history** | WhatsApp | WhatsApp-native | ⚠️ Ephemeral — critical decisions captured in GitHub review comments |
 
 ### 7.2 Database Policy
 
@@ -324,13 +322,13 @@ gantt
 | Week | Phase | Activities | Exit Criteria |
 |------|-------|-----------|---------------|
 | **1** | **Onboard** | Account provisioning, GitHub + Cline familiarization, initial domain scoping, hLexicon draft | GitHub push successful; first Cline research session completed; WhatsApp introduction posted |
-| **2** | **Learn** | AI literacy exercises, initial research prompts, first artifact creation | First 3 artifacts committed to repo; first CURATION_LOG.md entry |
+| **2** | **Learn** | AI literacy exercises, initial research prompts, first artifact creation | First 3 artifacts committed to repo; first curation review completed |
 | **3-4** | **Research-I** | Deep domain research, AI-enabled inquiry, artifact accumulation | 5+ artifacts committed; first twice-weekly batch review cycles underway |
 | **4-5** | **Curation-I** | Research professional batch review of W1-4 artifacts, gap identification, direction adjustment | All artifacts through at least one curation cycle; revise actions identified and in progress |
 | **5-6** | **Research-II** | Address curation gaps, expand scope, build code artifacts and databases | New artifacts responding to curation feedback; schema.md for any databases |
 | **6-7** | **Synthesis** | Framework development — syntax/semantics/temporal analysis, cross-artifact integration | Draft of capstone deliverable; framework structure visible in repo |
 | **7-8** | **Polish** | Final curation passes, deliverable refinement, grill-me self-test | Capstone deliverable prepared; intern can articulate domain framework |
-| **8** | **Close** | Final review, offboarding, retrospective, next-steps discussion | CURATION_LOG.md finalized; accounts reviewed; consulting follow-up path discussed |
+| **8** | **Close** | Final review, offboarding, retrospective, next-steps discussion | Final review completed; accounts reviewed; consulting follow-up path discussed |
 | **9-11** | **Buffer** | Extension window (max 3 weeks) | Used only if interrupted; same exit criteria as missed phases |
 
 ### 8.3 Interruption Policy
@@ -360,9 +358,9 @@ gantt
 - Interns continue producing between batch reviews
 - Ad hoc reviews available via WhatsApp escalation at any time
 
-### 9.3 CURATION_LOG.md Specification
+### 9.3 Curation Feedback via GitHub
 
-Located at the repository root. Append-only markdown table. See [`CURATION_LOG_TEMPLATE.md`](CURATION_LOG_TEMPLATE.md) for the full template and field definitions.
+Curation decisions are communicated through GitHub review comments and issue comments on the intern's repository. Research professionals provide specific, actionable feedback using the Merge/Revise/Defer/Discard gradient. The intern's commit history provides an auditable trail of how feedback was incorporated.
 
 ### 9.4 Research Professional Roles
 
@@ -370,14 +368,14 @@ Located at the repository root. Append-only markdown table. See [`CURATION_LOG_T
 |----|-------------|----------------|
 | **Ivan** | Domain expert: fermented food, software architecture, cryptocurrencies | Domain syntax/semantics accuracy; framework coherence |
 | **Mario** | Domain expert: AI research agents | AI methodology; tool usage effectiveness; literacy development |
-| **Matt** | Domain business expert; program manager | Business context relevance; overall program quality; curation log oversight |
+| **Matt** | Domain business expert; program manager | Business context relevance; overall program quality; curation pattern oversight |
 | **Mike** | Biotech domain expert; team navigator | Communication health; RP engagement; conflict resolution; intervenes if RP feedback quality drops |
 
 ### 9.5 Curation Quality Assurance
 
 - **Mike** monitors RP engagement and feedback quality; intervenes directly if feedback becomes superficial
-- **Matt** reviews curation log patterns and WhatsApp interactions for program-level quality
-- Curation decisions are recorded in `CURATION_LOG.md`, providing an auditable trail of feedback quality
+- **Matt** reviews curation patterns and WhatsApp interactions for program-level quality
+- Curation decisions are provided through GitHub review comments, creating an auditable trail of feedback quality
 
 ---
 
@@ -426,7 +424,7 @@ Artifact quantity, artifact quality, and comparative intern performance are NOT 
 | 6 | **Observability** | Seven observable signals identified; what-is-NOT-measured documented | ✅ |
 | 7 | **Persistence** | All artifact types have storage format and location; database policy (CSV/JSON) enforced | ✅ |
 | 8 | **Lifecycle** | 8-week timeline with phase-by-phase activities and exit criteria; 3-week buffer; interruption policy | ✅ |
-| 9 | **Curation** | Decision gradient defined; cadence set (twice-weekly); CURATION_LOG.md template; RP roles assigned; QA process documented | ✅ |
+| 9 | **Curation** | Decision gradient defined; cadence set (twice-weekly); GitHub review workflow; RP roles assigned; QA process documented | ✅ |
 
 **Result:** 9/9 categories satisfied. Internship program specification is DDMVSS-complete.
 

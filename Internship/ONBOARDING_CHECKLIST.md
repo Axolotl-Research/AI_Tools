@@ -12,7 +12,7 @@ domain: "Internship Program Management"
 **Purpose:** A step-by-step checklist for your first week. Complete every item before moving on. If you get stuck on any step for more than 30 minutes, post in the WhatsApp group — that is what it is for.
 
 **Exit criteria for Week 1** (from the specification):
-> GitHub push successful; first Cline research session completed; WhatsApp introduction posted; CURATION_LOG.md initialized; domain hLexicon draft started.
+> GitHub push successful; first Cline research session completed; WhatsApp introduction posted; domain hLexicon draft started.
 
 **Key terms:**
 
@@ -21,8 +21,7 @@ domain: "Internship Program Management"
 | **Artifact** | Any markdown doc, code file, CSV, JSON, PDF, or agent skill you produce and store in your GitHub repository. |
 | **hLexicon** | Your domain dictionary — the collection of terms with specific meaning in your domain that you build throughout the program. |
 | **Curation** | The process where a research professional reviews your artifacts and records a decision: Merge, Revise, Defer, or Discard. |
-| **CURATION_LOG.md** | An append-only markdown table in your repo root where every curation decision is recorded. |
-| **Grill-me** | A Socratic examination skill that tests understanding through five levels: Recall, Mechanism, Rationale, Edge Cases, and Synthesis. |
+| **Grill-me** | A Socratic examination skill that tests understanding through five levels: Recall, Mechanism, Rationale, Edge Cases, and Synthesis |
 
 ---
 
@@ -49,12 +48,11 @@ If any account is not working, escalate immediately in the WhatsApp group or con
   git clone https://github.com/Axolotl-Research/your-repo-name.git
   cd your-repo-name
   ```
-- [ ] **Initialize CURATION_LOG.md** — Copy the template from [`CURATION_LOG_TEMPLATE.md`](CURATION_LOG_TEMPLATE.md) into your repo root
 - [ ] **Write your first README.md** — Describe your domain and what you hope to learn
 - [ ] **Stage, commit, and push**
   ```
-  git add README.md CURATION_LOG.md
-  git commit -m "Initial repo setup: README and curation log"
+  git add README.md
+  git commit -m "Initial repo setup: README"
   git push origin main
   ```
 - [ ] **Verify on GitHub.com** — Open your repo in the browser and confirm the commit is there
@@ -100,7 +98,7 @@ If any account is not working, escalate immediately in the WhatsApp group or con
 - [ ] **Explore the Library** for your domain:
   - Domain A: [`Library/Domain-A-Food-Systems/`](Library/Domain-A-Food-Systems/)
   - Domain B: [`Library/Domain-B-Tokenization/`](Library/Domain-B-Tokenization/)
-- [ ] **Verify your CURATION_LOG.md** has the initial entry from Matt
+- [ ] **Check your repo for any review feedback** from the research professionals
 
 ---
 
@@ -123,12 +121,11 @@ Verify every exit criterion from the specification:
 - [ ] **GitHub push successful** — You have at least one commit pushed to your repo
 - [ ] **First Cline research session completed** — You used Cline to research your domain
 - [ ] **WhatsApp introduction posted** — The group knows who you are
-- [ ] **CURATION_LOG.md initialized** — Template copied and first entry logged
 - [ ] **Domain hLexicon draft started** — You have a file with at least 10 key terms defined
 
 ### If You Completed All Five
 
-You are on track. Move into Week 2 (Learn phase) — start broader research, produce your first three artifacts, and record your first curation log entry.
+You are on track. Move into Week 2 (Learn phase) — start broader research, produce your first three artifacts, and prepare for your first curation review.
 
 ### If You're Stuck on Any Item
 

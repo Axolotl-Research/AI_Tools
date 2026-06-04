@@ -12,7 +12,7 @@ ddmvss_categories: [curation]
 
 ## For Axolotl Partners Internship Research Artifacts
 
-**Purpose:** This protocol defines what makes a research artifact excellent — not just "done," but genuinely useful to another human and consumable by an AI agent. It adapts the four-dimension quality framework from the Kask/HKask project (Hopper, Lovelace, Schriver, Gentle) to the specific artifacts you produce: markdown research files, CSV datasets, JSON exports, mermaid ER diagrams, README files, curation logs, and capstone deliverables.
+**Purpose:** This protocol defines what makes a research artifact excellent — not just "done," but genuinely useful to another human and consumable by an AI agent. It adapts the four-dimension quality framework from the Kask/HKask project (Hopper, Lovelace, Schriver, Gentle) to the specific artifacts you produce: markdown research files, CSV datasets, JSON exports, mermaid ER diagrams, README files, and capstone deliverables.
 
 **Why this matters:** Your artifacts are not homework. They are the permanent record of your research. Three months after the internship ends, Ivan should be able to open your repository, read your artifacts, and understand your framework without calling you. An AI agent should be able to consume your work as ground truth and produce correct answers. The grill-me skill should find substance, not gaps. These four tests ensure that happens.
 
@@ -216,13 +216,6 @@ Every research artifact should follow this pattern:
 - [ ] **Lovelace:** Are claims about the project accurate and current?
 - [ ] **Schriver:** Does it serve as a navigable map of the entire repository?
 - [ ] **Gentle:** Would an AI agent understand the repository structure from the README alone?
-
-### CURATION_LOG.md
-
-- [ ] **Hopper:** Are curation decisions explained well enough that a future reader understands what happened?
-- [ ] **Lovelace:** Are artifact references (file paths, commit SHAs) precise?
-- [ ] **Schriver:** Is the log append-only? Is the most recent entry easy to find?
-- [ ] **Gentle:** Could an AI agent reconstruct the curation history of any artifact?
 
 ---
 
