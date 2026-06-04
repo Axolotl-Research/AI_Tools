@@ -20,7 +20,7 @@ domain: "Internship Program Management"
 |------|------------|
 | **Artifact** | Any markdown doc, code file, CSV, JSON, PDF, or agent skill you produce and store in your GitHub repository. |
 | **hLexicon** | Your domain dictionary — the collection of terms with specific meaning in your domain that you build throughout the program. |
-| **Curation** | The process where a research professional reviews your artifacts and records a decision: Merge, Revise, Defer, or Discard. |
+| **Curation** | The process where a research professional reviews your artifacts and provides a decision via GitHub review comments: Merge, Revise, Defer, or Discard. |
 | **Grill-me** | A Socratic examination skill that tests understanding through five levels: Recall, Mechanism, Rationale, Edge Cases, and Synthesis |
 
 ---
@@ -88,7 +88,7 @@ If any account is not working, escalate immediately in the WhatsApp group or con
 
 ---
 
-## Day 3-4: Domain Lexicon & Curation
+## Day 3-4: Domain Lexicon & Self-Review
 
 - [ ] **Start your domain hLexicon** — Create a file (e.g., `LEXICON.md`) with the key terms in your domain. An hLexicon is your personal domain dictionary: the terms that have specific meaning in your domain, each with a 1-2 sentence definition in your own words.
   - Include the source (AI tool, book, web resource) where you encountered each term
@@ -98,7 +98,6 @@ If any account is not working, escalate immediately in the WhatsApp group or con
 - [ ] **Explore the Library** for your domain:
   - Domain A: [`Library/Domain-A-Food-Systems/`](Library/Domain-A-Food-Systems/)
   - Domain B: [`Library/Domain-B-Tokenization/`](Library/Domain-B-Tokenization/)
-- [ ] **Check your repo for any review feedback** from the research professionals
 
 ---
 
@@ -123,7 +122,7 @@ Verify every exit criterion from the specification:
 - [ ] **WhatsApp introduction posted** — The group knows who you are
 - [ ] **Domain hLexicon draft started** — You have a file with at least 10 key terms defined
 
-### If You Completed All Five
+### If You Completed All Four
 
 You are on track. Move into Week 2 (Learn phase) — start broader research, produce your first three artifacts, and prepare for your first curation review.
 

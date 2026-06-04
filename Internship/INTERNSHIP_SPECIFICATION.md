@@ -241,7 +241,7 @@ At program close (Week 8, or Week 11 if extended):
 1. Research professionals conduct final curation pass
 2. Intern confirms all artifacts committed and pushed
 3. Intern retains GitHub account; Axolotl-Research org access may be maintained for consulting follow-ups
-5. Cline, KiloCode, Zed accounts: disposition determined by account type and licensing
+4. Cline, KiloCode, Zed accounts: disposition determined by account type and licensing
 
 ---
 
@@ -361,6 +361,14 @@ gantt
 ### 9.3 Curation Feedback via GitHub
 
 Curation decisions are communicated through GitHub review comments and issue comments on the intern's repository. Research professionals provide specific, actionable feedback using the Merge/Revise/Defer/Discard gradient. The intern's commit history provides an auditable trail of how feedback was incorporated.
+
+**How batch reviews work:** Research professionals review accumulated artifacts in batches, twice per week. Each review produces GitHub comments on the relevant commits, pull requests, or issues in the intern's repository. The intern is expected to read the feedback, respond in-thread if they have questions or disagree, and address action items before the next batch review.
+
+**Intern actions:**
+- Read each review comment carefully and understand the rationale
+- If you disagree, reply in-thread with your perspective — curation is a dialogue
+- Address action items (especially Revise decisions) before the next batch review
+- Do not let action items accumulate
 
 ### 9.4 Research Professional Roles
 
