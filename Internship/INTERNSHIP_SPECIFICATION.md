@@ -10,7 +10,7 @@ ddmvss_categories: [domain, capability, interface, composition, trust, observabi
 
 # Axolotl Summer Internship Program — Specification
 
-**Note for interns:** This document uses the DDMVSS framework (Domain-Driven Minimum Viable Specification Set) — a specification methodology adapted from software architecture to program design. Terms like "hLexicon," "bounded context," "OCAP boundaries," and "ν-event types" are DDMVSS vocabulary. Intern-facing documents use simplified equivalents (e.g., "lexicon" instead of "hLexicon"). They refer to the same concepts. You do not need to understand DDMVSS deeply to use this specification — the table of contents below will route you to the parts relevant to your questions.
+**Note for interns:** This document uses the DDMVSS framework (Domain-Driven Minimum Viable Specification Set) — a specification methodology adapted from software architecture to program design. Terms like "Lexicon," "bounded context," "OCAP boundaries," and "ν-event types" are DDMVSS vocabulary. Intern-facing documents use simplified equivalents (e.g., "lexicon" instead of "Lexicon"). They refer to the same concepts. You do not need to understand DDMVSS deeply to use this specification — the table of contents below will route you to the parts relevant to your questions.
 
 **Purpose:** The minimum viable specification set for the Axolotl Partners summer internship program — an 8-week, AI-enabled research program for 1-3 interns, each pursuing a self-selected domain in collaboration with the Axolotl research team.
 
@@ -33,7 +33,7 @@ ddmvss_categories: [domain, capability, interface, composition, trust, observabi
 
 ---
 
-## 1. Domain — Bounded Contexts & hLexicon
+## 1. Domain — Bounded Contexts & Lexicon
 
 ### 1.1 Bounded Contexts
 
@@ -321,7 +321,7 @@ gantt
 
 | Week | Phase | Activities | Exit Criteria |
 |------|-------|-----------|---------------|
-| **1** | **Onboard** | Account provisioning, GitHub + Cline familiarization, initial domain scoping, hLexicon draft | GitHub push successful; first Cline research session completed; WhatsApp introduction posted |
+| **1** | **Onboard** | Account provisioning, GitHub + Cline familiarization, initial domain scoping, lexicon draft | GitHub push successful; first Cline research session completed; WhatsApp introduction posted |
 | **2** | **Learn** | AI literacy exercises, initial research prompts, first artifact creation | First 3 artifacts committed to repo; first curation review completed |
 | **3-4** | **Research-I** | Deep domain research, AI-enabled inquiry, artifact accumulation | 5+ artifacts committed; first twice-weekly batch review cycles underway |
 | **4-5** | **Curation-I** | Research professional batch review of W1-4 artifacts, gap identification, direction adjustment | All artifacts through at least one curation cycle; revise actions identified and in progress |
@@ -424,7 +424,7 @@ Artifact quantity, artifact quality, and comparative intern performance are NOT 
 
 | # | DDMVSS Category | Predicate | Status |
 |---|----------------|-----------|--------|
-| 1 | **Domain** | Both domains named, bounded contexts mapped, hLexicon allocated, domain experts assigned | ✅ |
+| 1 | **Domain** | Both domains named, bounded contexts mapped, lexicon allocated, domain experts assigned | ✅ |
 | 2 | **Capability** | Every research verb has an enabling tool surface; AI literacy topics enumerated | ✅ |
 | 3 | **Interface** | Five tool surfaces provisioned; interface purposes delineated | ✅ |
 | 4 | **Composition** | Research cycle flow defined; composition rules documented; escalation path clear | ✅ |

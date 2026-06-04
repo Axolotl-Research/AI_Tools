@@ -137,7 +137,7 @@ For a detailed Day 1-5 walkthrough, see [`ONBOARDING_CHECKLIST.md`](ONBOARDING_C
 3. [ ] First Cline research session completed
 5. [ ] First artifact committed and pushed
 6. [ ] WhatsApp introduction posted in Axolotl Interns group
-7. [ ] Domain hLexicon draft started
+7. [ ] Domain lexicon draft started
 
 ---
 

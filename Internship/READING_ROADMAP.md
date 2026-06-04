@@ -23,7 +23,7 @@ domain: "Internship Program Management"
 | Term | Definition |
 |------|------------|
 | **Artifact** | Any markdown doc, code file, CSV, JSON, PDF, or agent skill you produce and store in your GitHub repository. |
-| **hLexicon** | Your domain dictionary — the terms with specific meaning in your domain that you build throughout the program. |
+| **Lexicon** | Your domain dictionary — the terms with specific meaning in your domain that you build throughout the program. |
 | **Curation** | The process where a research professional reviews your artifacts and records a decision (Merge, Revise, Defer, or Discard). |
 | **Entity-relationship (ER) diagram** | A visual map of the entities in your domain and how they connect. The primary synthesis tool for this program. |
 | **Grill-me** | A Socratic examination skill that tests understanding through five levels: Recall, Mechanism, Rationale, Edge Cases, and Synthesis. |

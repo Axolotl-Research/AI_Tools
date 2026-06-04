@@ -12,14 +12,14 @@ domain: "Internship Program Management"
 **Purpose:** A step-by-step checklist for your first week. Complete every item before moving on. If you get stuck on any step for more than 30 minutes, post in the WhatsApp group — that is what it is for.
 
 **Exit criteria for Week 1** (from the specification):
-> GitHub push successful; first Cline research session completed; WhatsApp introduction posted; domain hLexicon draft started.
+> GitHub push successful; first Cline research session completed; WhatsApp introduction posted; domain lexicon draft started.
 
 **Key terms:**
 
 | Term | Definition |
 |------|------------|
 | **Artifact** | Any markdown doc, code file, CSV, JSON, PDF, or agent skill you produce and store in your GitHub repository. |
-| **hLexicon** | Your domain dictionary — the collection of terms with specific meaning in your domain that you build throughout the program. |
+| **Lexicon** | Your domain dictionary — the collection of terms with specific meaning in your domain that you build throughout the program. |
 | **Curation** | The process where a research professional reviews your artifacts and provides a decision via GitHub review comments: Merge, Revise, Defer, or Discard. |
 | **Grill-me** | A Socratic examination skill that tests understanding through five levels: Recall, Mechanism, Rationale, Edge Cases, and Synthesis |
 
@@ -90,7 +90,7 @@ If any account is not working, escalate immediately in the WhatsApp group or con
 
 ## Day 3-4: Domain Lexicon & Self-Review
 
-- [ ] **Start your domain hLexicon** — Create a file (e.g., `LEXICON.md`) with the key terms in your domain. An hLexicon is your personal domain dictionary: the terms that have specific meaning in your domain, each with a 1-2 sentence definition in your own words.
+- [ ] **Start your domain lexicon** — Create a file (e.g., `LEXICON.md`) with the key terms in your domain. A lexicon is your personal domain dictionary: the terms that have specific meaning in your domain, each with a 1-2 sentence definition in your own words.
   - Include the source (AI tool, book, web resource) where you encountered each term
   - Target at least 10 terms for your first draft
 - [ ] **Review your first artifact critically** — Does it hold up? Are there entities that feel thin? Entities you can't define precisely?
@@ -120,7 +120,7 @@ Verify every exit criterion from the specification:
 - [ ] **GitHub push successful** — You have at least one commit pushed to your repo
 - [ ] **First Cline research session completed** — You used Cline to research your domain
 - [ ] **WhatsApp introduction posted** — The group knows who you are
-- [ ] **Domain hLexicon draft started** — You have a file with at least 10 key terms defined
+- [ ] **Domain lexicon draft started** — You have a file with at least 10 key terms defined
 
 ### If You Completed All Four
 

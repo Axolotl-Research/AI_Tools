@@ -162,7 +162,7 @@ Building your lexicon — the dictionary of terms that have specific meaning in 
 ### How to Build Vocabulary with AI
 
 1. **Start with a glossary prompt.** "Define the 20 most important terms in Swiss fermented food production. For each, give a one-sentence definition and the Swiss German term if different from standard German."
-2. **Maintain a living `GLOSSARY.md` in your repo.** Every time you encounter a new term, add it. This becomes your hLexicon — the vocabulary that grounds your framework.
+2. **Maintain a living `GLOSSARY.md` in your repo.** Every time you encounter a new term, add it. This becomes your lexicon — the vocabulary that grounds your framework.
 3. **Ask the AI to use terms correctly, then verify.** "Write a paragraph about lacto-fermentation that correctly uses the terms *starter culture*, *substrate*, *brine*, and *anaerobic*. Then define each term."
 4. **Notice when the AI misuses a term.** This is valuable domain data — it tells you which concepts the model genuinely understands and which it is faking.
 
