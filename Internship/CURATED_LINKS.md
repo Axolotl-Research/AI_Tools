@@ -116,6 +116,8 @@ domain: "Internship Program Management"
 ### Agent Skills
 - 🟢 [Zed Agent Skills Documentation](https://zed.dev/docs/assistant-panel) — How skills work in Zed
 - 🟡 [Zed Skills Examples](https://github.com/zed-industries/zed/tree/main/assets/skills) — Official example skills in the Zed repo
+- 🟡 [Matt Pocock — Skills for Real Engineers (GitHub)](https://github.com/mattpocock/skills) — Curated agent skills from Matt Pocock's .claude directory
+- 🟡 [Matt Pocock — YouTube](https://www.youtube.com/@mattpocock) — TypeScript and AI coding tutorials by the creator of the grill-me skill
 - 🟢 Ask Cline: "What are agent skills and how do I create one?"
 - 🟢 Ask KiloCode: "Show me how agent skills work in KiloCode"
 
@@ -420,6 +422,8 @@ These channels regularly cover AI coding tools broadly — principles transfer a
 - 🟡 [Matt Wolfe](https://www.youtube.com/@mattwolfe) — Weekly AI news and tool roundups
 - 🟡 [AI Jason](https://www.youtube.com/@AIJasonZ) — AI agent and automation tutorials
 - 🟡 [Skill Leap AI](https://www.youtube.com/@SkillLeapAI) — Beginner-friendly AI tool tutorials
+- 🟡 [Matt Pocock](https://www.youtube.com/@mattpocock) — TypeScript wizard, AI coding workflows, and creator of the grill-me agent skill
+- 🟡 [Matt Pocock — Skills for Real Engineers (GitHub)](https://github.com/mattpocock/skills) — Curated agent skills (including grill-me) from his .claude directory
 
 ---
 

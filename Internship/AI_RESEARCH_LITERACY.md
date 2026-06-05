@@ -127,11 +127,13 @@ domain: "Internship Program Management"
 ### Agent Skill
 **Definition:** A reusable prompt template or tool configuration that extends an AI agent's capabilities for a specific task. Skills can be shared, versioned, and composed. Think of them as "apps" for your AI agent — each one teaches the agent how to do something new.
 
-**Why it matters:** During the program, you will build agent skills — for scraping research papers, for formatting curation-ready markdown, for self-administering grill-me interrogations. Skills are how you amplify your AI tools beyond their defaults. They are also artifacts you can share with the other intern or carry forward after the program. **One of your key discoveries this summer will be finding, loading, and using the grill-me skill** (created by Matt Peacock and used in KiloCode's Architect Agent) to test your domain framework.
+**Why it matters:** During the program, you will build agent skills — for scraping research papers, for formatting curation-ready markdown, for self-administering grill-me interrogations. Skills are how you amplify your AI tools beyond their defaults. They are also artifacts you can share with the other intern or carry forward after the program. **One of your key discoveries this summer will be finding, loading, and using the grill-me skill** (created by [Matt Pocock](https://github.com/mattpocock) and used in KiloCode's Architect Agent) to test your domain framework.
 
 **Resources:**
 - 🟢 Ask Cline: "What are agent skills and how do I create one?"
 - 🟡 [Zed Skills Documentation](https://zed.dev/docs/assistant-panel) — How skills work in Zed
+- 🟡 [Matt Pocock — Skills for Real Engineers (GitHub)](https://github.com/mattpocock/skills) — Curated agent skills from Matt Pocock's .claude directory
+- 🟡 [Matt Pocock — YouTube](https://www.youtube.com/@mattpocock) — TypeScript and AI coding tutorials by the creator of the grill-me skill
 
 ### Tool Use / Function Calling
 **Definition:** The capability of an LLM to invoke external functions — run code, query a database, search the web, read a file — rather than relying solely on its training data.

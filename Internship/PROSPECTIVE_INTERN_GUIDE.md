@@ -149,7 +149,7 @@ This is where the framework comes together. You are no longer producing standalo
 
 #### Weeks 7-8: Polish
 
-Final curation passes. Deliverable refinement. A self-administered grill-me test: you find, load, and use the **grill-me skill** (created by Matt Peacock and used in KiloCode's Architect Agent) to interrogate your own framework. Where do you stumble? Where can the AI ask five levels deep and you still have answers? You shore up the weak points. The repository is clean, organized, and complete. The ER diagrams are clear. Your GitHub review history tells the story of your intellectual development. You are ready.
+Final curation passes. Deliverable refinement. A self-administered grill-me test: you find, load, and use the **grill-me skill** (created by Matt Pocock and used in KiloCode's Architect Agent) to interrogate your own framework. Where do you stumble? Where can the AI ask five levels deep and you still have answers? You shore up the weak points. The repository is clean, organized, and complete. The ER diagrams are clear. Your GitHub review history tells the story of your intellectual development. You are ready.
 
 #### Week 8: Close
 
@@ -188,7 +188,7 @@ Your capstone deliverable is a GitHub repository containing an artifact — or c
 
 The format is not what matters. What matters is the depth.
 
-The quality bar is this: your repository must be able to **survive a grill-me interrogation**. "Grill-me" is a Socratic examination protocol — a special kind of AI agent skill created by Matt Peacock and used in KiloCode's Architect Agent — that probes understanding through escalating levels of difficulty:
+The quality bar is this: your repository must be able to **survive a grill-me interrogation**. "Grill-me" is a Socratic examination protocol — a special kind of AI agent skill created by Matt Pocock and used in KiloCode's Architect Agent — that probes understanding through escalating levels of difficulty:
 
 1. **Recall & Definition**: What is X? Define Y. What does acronym Z stand for?
 2. **Mechanism & Causation**: How does X actually work? Walk me through the flow from A to B.

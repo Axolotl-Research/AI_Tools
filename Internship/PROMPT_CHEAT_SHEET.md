@@ -98,7 +98,7 @@ domain: "Internship Program Management"
 | **Grill-me at Level 5** | "Present me with a novel scenario in [domain] — something that doesn't exist yet but could. Ask me to extend my framework to accommodate it. Push back on my answers. Find the edge of my understanding." |
 | **Full grill-me simulation** | "You are a demanding domain expert conducting an oral examination on [domain]. Start at Level 1 and escalate through Level 5. Be relentless. When I hand-wave, demand specifics. When I'm partially right, push on what's missing. Track my performance." |
 
-**Note on grill-me:** The grill-me skill (created by Matt Peacock, used in KiloCode's Architect Agent) is an actual agent skill you can find and load. Discovering how to use it is part of your learning. The prompts above are a fallback if you have not yet loaded the skill — but loading the real skill will give you a more authentic grill-me experience.
+**Note on grill-me:** The grill-me skill (created by Matt Pocock, used in KiloCode's Architect Agent) is an actual agent skill you can find and load. Discovering how to use it is part of your learning. The prompts above are a fallback if you have not yet loaded the skill — but loading the real skill will give you a more authentic grill-me experience.
 
 ---
 
