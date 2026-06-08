@@ -43,7 +43,6 @@ domain: "Internship Program Management"
 | [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) | **AI Alphabet Soup** — demystifying MCP, ACP, A2A, LLM, API; why everything is just programs sending messages; how to spot jargon that obfuscates vs. enables | Interns (read when drowning in acronyms) |
 | [`CURATED_LINKS.md`](CURATED_LINKS.md) | **Curated resource links** — standalone collection of best free resources across all literacy areas, Swiss-specific links, domain-specific links, YouTube tutorials | Interns (launchpad for learning) |
 | [`ONBOARDING_CHECKLIST.md`](ONBOARDING_CHECKLIST.md) | **Onboarding checklist** — Day-by-Day Week 1 checklist with exit criteria, orientation reading, and self-check | Interns (Week 1) |
-| [`READING_ROADMAP.md`](READING_ROADMAP.md) | **Reading roadmap** — week-by-week guidance on which Library files to read and when, aligned to the 8-week timeline | Interns (reference throughout) |
 
 ### Reading Library
 
@@ -59,8 +58,6 @@ domain: "Internship Program Management"
 | [`Library/Cognition-Extended-Mind/`](Library/Cognition-Extended-Mind/) | Competency topic 6: AI workflow transformation | All interns |
 | [`Library/Complexity-Systems-Thinking/`](Library/Complexity-Systems-Thinking/) | Cross-cutting: ER modeling, semantic spaces, emergent behavior | All interns |
 | [`Library/MAIA-Substack/`](Library/MAIA-Substack/) | Curated Substack readings + MA Guidebook | All interns |
-
-See also: [`READING_ROADMAP.md`](READING_ROADMAP.md) — week-by-week reading guidance aligned to the 8-week timeline.
 
 ---
 

@@ -20,7 +20,6 @@ AI_Tools/
     ├── INTERNSHIP_SPECIFICATION.md              ← Full DDMVSS specification (9/9 categories)
     ├── PROSPECTIVE_INTERN_GUIDE.md              ← What to expect — philosophy, tools, framework, cadence
     ├── ONBOARDING_CHECKLIST.md                  ← Day-by-day Week 1 checklist
-    ├── READING_ROADMAP.md                        ← Week-by-week reading guide for the Library
     ├── YOUNG_RESEARCHER_GUIDE.md                ← How to research with probabilistic AI tools
     ├── AI_RESEARCH_LITERACY.md                  ← Dictionary of 8 AI literacy competency areas
     ├── AI_ALPHABET_SOUP.md                      ← Demystifying MCP, ACP, A2A, LLM, and other jargon
@@ -55,7 +54,6 @@ AI_Tools/
 | [`INTERNSHIP_SPECIFICATION.md`](Internship/INTERNSHIP_SPECIFICATION.md) | Full program specification — domains, timeline, curation, deliverables |
 | [`YOUNG_RESEARCHER_GUIDE.md`](Internship/YOUNG_RESEARCHER_GUIDE.md) | How to research with probabilistic AI tools, verification, productive struggle |
 | [`WRITING_EXCELLENCE.md`](Internship/WRITING_EXCELLENCE.md) | Four writing tests every artifact must pass |
-| [`READING_ROADMAP.md`](Internship/READING_ROADMAP.md) | What to read each week, aligned to the 8-week timeline |
 | [`Library/INDEX.md`](Internship/Library/INDEX.md) | Curated reading library with relevance to each competency area |
 
 ## Program Domains (Summer 2026)

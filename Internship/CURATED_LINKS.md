@@ -342,8 +342,6 @@ The online links above pair with the curated reading library at [`Library/`](Lib
 | §9 General Research Methodology | Research-Methodology | `George_Polya_How_To_Solve_It_.pdf`, `Larson_problem-solving.pdf`, `fermi-problems-guide.pdf` |
 | §10 Domain-Specific Resources | Domain-A-Food-Systems / Domain-B-Tokenization | See [`Library/INDEX.md`](Library/INDEX.md) for full listing |
 
-See [`READING_ROADMAP.md`](READING_ROADMAP.md) for week-by-week guidance on when to read each Library resource.
-
 ---
 
 **Last updated:** 2026-06-03 | **Version:** 1.0.0

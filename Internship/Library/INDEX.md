@@ -4,14 +4,13 @@
 >
 > These files serve a dual purpose. You can read them yourself, of course — but you can also feed them to AI agents as context. A PDF or markdown file from this library given to Cline, KiloCode, or Zed as a reference can ground the agent's output in real domain knowledge instead of generic hallucination. Use them as resources for your research sessions, not just as reading material.
 >
-> For week-by-week guidance on what to read when, see [`READING_ROADMAP.md`](../READING_ROADMAP.md).
 
 ### How to Use This Index
 
 1. **Find your domain.** Start with the folder that maps to your domain (Domain A or B), then explore cross-cutting folders.
 2. **Use the relevance column.** Each file has a one-line explanation of why it matters for this program. If the reason resonates with your current research phase, read it.
 3. **Feed files to AI agents.** When researching a topic, give the relevant PDF or markdown file to Cline, KiloCode, or Zed as context. This produces better results than prompting without source material.
-4. **Don't read everything.** The [`READING_ROADMAP.md`](../READING_ROADMAP.md) tells you what to read each week. Skip ahead if curiosity pulls you, but the roadmap keeps you on track.
+4. **Don't read everything.** Browse the shelves, read what's relevant to your current research phase, skip the rest for now. You can always come back.
 
 ### Key Terms
 

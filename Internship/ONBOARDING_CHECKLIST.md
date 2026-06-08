@@ -65,7 +65,6 @@ If any account is not working, escalate immediately in the WhatsApp group or con
 - [ ] **Skim** [`AI_RESEARCH_LITERACY.md`](AI_RESEARCH_LITERACY.md) — Do not try to memorize. Notice what you recognize and what you don't. Return to it as concepts surface.
 - [ ] **Read** [`YOUNG_RESEARCHER_GUIDE.md`](YOUNG_RESEARCHER_GUIDE.md) — How to research with probabilistic tools, how to verify, how to handle disagreement
 - [ ] **Skim** [`FAQ.md`](FAQ.md) — Know it exists. Come back when you hit a problem.
-- [ ] **Skim** [`READING_ROADMAP.md`](READING_ROADMAP.md) — Know what to read and when throughout the program
 - [ ] **Read the MA Guidebook** — [`Library/MAIA-Substack/MA_Guidebook_July23.md`](Library/MAIA-Substack/MA_Guidebook_July23.md) — How the team thinks
 - [ ] **Read the teaching-learning-and-ai post** — [`Library/MAIA-Substack/posts/137992097.teaching-learning-and-ai.html`](Library/MAIA-Substack/posts/137992097.teaching-learning-and-ai.html)
 
