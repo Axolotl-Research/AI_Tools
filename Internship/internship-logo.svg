@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="48" fill="#faf8f5"/>
+
+  <!-- ==================== DESK ==================== -->
+  <rect x="60" y="370" width="400" height="10" rx="3" fill="#8b4557"/>
+  <rect x="85" y="380" width="10" height="65" rx="2" fill="#6b3545"/>
+  <rect x="435" y="380" width="10" height="65" rx="2" fill="#6b3545"/>
+  <rect x="85" y="415" width="360" height="5" rx="2" fill="#6b3545"/>
+
+  <!-- ==================== SCREEN ==================== -->
+  <rect x="320" y="350" width="14" height="20" rx="2" fill="#5a5a6a"/>
+  <rect x="305" y="366" width="44" height="5" rx="2" fill="#5a5a6a"/>
+  <rect x="260" y="200" width="160" height="150" rx="8" fill="#2a2a4a"/>
+  <rect x="268" y="208" width="144" height="134" rx="4" fill="#f0f4f8"/>
+
+  <!-- ER: User -->
+  <rect x="280" y="220" width="38" height="20" rx="3" fill="#e87040"/>
+  <text x="288" y="234" font-family="monospace" font-size="9" fill="#fff" font-weight="bold">User</text>
+
+  <!-- ER: Role -->
+  <rect x="350" y="220" width="38" height="20" rx="3" fill="#2a4a7a"/>
+  <text x="357" y="234" font-family="monospace" font-size="9" fill="#fff" font-weight="bold">Role</text>
+
+  <!-- ER: Perm -->
+  <rect x="315" y="262" width="38" height="20" rx="3" fill="#8b3545"/>
+  <text x="321" y="276" font-family="monospace" font-size="8" fill="#fff" font-weight="bold">Perm</text>
+
+  <!-- Relationship lines -->
+  <line x1="318" y1="230" x2="350" y2="230" stroke="#4a4a6a" stroke-width="1.5"/>
+  <line x1="299" y1="240" x2="334" y2="262" stroke="#4a4a6a" stroke-width="1.5"/>
+  <line x1="369" y1="240" x2="334" y2="262" stroke="#4a4a6a" stroke-width="1.5"/>
+
+  <!-- Code lines below ER -->
+  <rect x="280" y="300" width="52" height="4" rx="2" fill="#2a4a7a"/>
+  <rect x="288" y="310" width="40" height="4" rx="2" fill="#8b3545"/>
+  <rect x="288" y="320" width="48" height="4" rx="2" fill="#e87040"/>
+  <rect x="280" y="330" width="30" height="4" rx="2" fill="#2a4a7a"/>
+
+  <!-- ==================== AXOLOTL CHARACTER ==================== -->
+  <!-- Tail (red/maroon) — curving behind -->
+  <polygon points="145,345 118,358 112,378 128,385 138,368 155,358" fill="#8b3545"/>
+
+  <!-- Body (blue) — sitting at desk -->
+  <polygon points="175,260 215,260 225,340 225,360 205,360 195,340 185,360 165,360" fill="#2a4a7a"/>
+
+  <!-- Belly highlight (yellow) -->
+  <polygon points="190,280 210,280 212,335 195,335" fill="#e8b830"/>
+
+  <!-- Back leg (red) -->
+  <polygon points="170,320 183,320 187,355 177,365 165,360 163,340" fill="#8b3545"/>
+
+  <!-- Front leg (yellow) — resting on desk -->
+  <polygon points="195,300 210,300 215,340 205,360 190,360 185,340" fill="#e8b830"/>
+
+  <!-- Arm reaching to screen (blue) -->
+  <polygon points="215,275 235,270 268,285 282,280 285,290 272,295 240,285 220,290" fill="#2a4a7a"/>
+
+  <!-- Hand holding stylus (yellow) -->
+  <polygon points="282,280 292,278 295,288 285,290" fill="#e8b830"/>
+
+  <!-- Stylus -->
+  <polygon points="292,278 308,264 310,269 295,284" fill="#5a5a6a"/>
+
+  <!-- Stylus tip dot (orange accent) -->
+  <circle cx="309" cy="265" r="3.5" fill="#e87040"/>
+
+  <!-- HEAD — Orange/amber -->
+  <polygon points="195,210 238,205 258,215 262,235 252,250 232,255 202,255 188,245 184,225" fill="#e87040"/>
+
+  <!-- Snout -->
+  <polygon points="255,220 270,218 274,225 268,232 255,235" fill="#e87040"/>
+
+  <!-- Mouth -->
+  <line x1="257" y1="228" x2="266" y2="228" stroke="#c45a30" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Eye — white with dark pupil -->
+  <circle cx="232" cy="225" r="10" fill="#fff"/>
+  <circle cx="234" cy="225" r="5" fill="#1a1a2e"/>
+  <circle cx="236" cy="223" r="1.5" fill="#fff"/>
+
+  <!-- Nostril -->
+  <circle cx="260" cy="222" r="1.5" fill="#c45a30"/>
+
+  <!-- EXTERNAL GILLS — Blue, geometric fronds -->
+  <!-- Top gill -->
+  <polygon points="195,215 178,198 168,194 174,206 185,214" fill="#1a3a6a"/>
+  <polygon points="183,206 168,190 160,188 166,198 178,210" fill="#1a3a6a"/>
+  <polygon points="174,200 160,185 154,184 160,196 172,206" fill="#1a3a6a"/>
+
+  <!-- Middle gill -->
+  <polygon points="188,228 170,220 160,218 166,228 176,235" fill="#1a3a6a"/>
+  <polygon points="176,225 158,215 148,214 154,225 166,235" fill="#1a3a6a"/>
+
+  <!-- Bottom gill -->
+  <polygon points="184,242 166,238 158,238 164,248 176,252" fill="#1a3a6a"/>
+  <polygon points="172,244 156,238 148,238 154,248 166,254" fill="#1a3a6a"/>
+
+  <!-- ==================== THOUGHT CLOUD ==================== -->
+  <!-- Cloud outline (dotted) -->
+  <ellipse cx="410" cy="95" rx="80" ry="48" fill="none" stroke="#e87040" stroke-width="1" stroke-dasharray="4,6" opacity="0.3"/>
+  <ellipse cx="340" cy="115" rx="35" ry="25" fill="none" stroke="#e87040" stroke-width="1" stroke-dasharray="4,6" opacity="0.2"/>
+
+  <!-- Trail dots -->
+  <circle cx="290" cy="150" r="5" fill="#2a4a7a" opacity="0.15"/>
+  <circle cx="268" cy="168" r="3.5" fill="#2a4a7a" opacity="0.1"/>
+
+  <!-- ER mini icon in cloud -->
+  <g transform="translate(375, 75)" opacity="0.5">
+    <rect x="0" y="0" width="22" height="12" rx="2" fill="none" stroke="#e87040" stroke-width="1"/>
+    <line x1="4" y1="4" x2="18" y2="4" stroke="#e87040" stroke-width="0.7"/>
+    <line x1="4" y1="8" x2="14" y2="8" stroke="#e87040" stroke-width="0.7"/>
+  </g>
+
+  <!-- Neural network mini in cloud -->
+  <g transform="translate(420, 70)" opacity="0.45">
+    <circle cx="0" cy="0" r="2" fill="#8b3545"/>
+    <circle cx="-12" cy="-10" r="1.5" fill="#2a4a7a"/>
+    <circle cx="12" cy="-10" r="1.5" fill="#2a4a7a"/>
+    <circle cx="-10" cy="10" r="1.5" fill="#e87040"/>
+    <circle cx="10" cy="10" r="1.5" fill="#e87040"/>
+    <line x1="-10" y1="-8" x2="-1.5" y2="-1.5" stroke="#2a4a7a" stroke-width="0.5"/>
+    <line x1="10" y1="-8" x2="1.5" y2="-1.5" stroke="#2a4a7a" stroke-width="0.5"/>
+    <line x1="-1.5" y1="1.5" x2="-8" y2="8" stroke="#8b3545" stroke-width="0.5"/>
+    <line x1="1.5" y1="1.5" x2="8" y2="8" stroke="#8b3545" stroke-width="0.5"/>
+  </g>
+
+  <!-- Question mark -->
+  <text x="448" y="110" font-family="Georgia, serif" font-size="20" fill="#8b3545" opacity="0.3" font-style="italic">?</text>
+
+  <!-- ==================== FLOATING PARTICLES ==================== -->
+  <circle cx="250" cy="190" r="2" fill="#e87040" opacity="0.2"/>
+  <circle cx="275" cy="175" r="1.5" fill="#2a4a7a" opacity="0.15"/>
+  <circle cx="310" cy="160" r="2" fill="#8b3545" opacity="0.15"/>
+  <circle cx="460" cy="195" r="1.5" fill="#e87040" opacity="0.15"/>
+  <circle cx="455" cy="245" r="2" fill="#2a4a7a" opacity="0.1"/>
+
+  <!-- ==================== TAGLINE ==================== -->
+  <text x="256" y="470" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#6b3545" letter-spacing="3">AXOLOTL INTERN 2026</text>
+
+</svg>
