@@ -115,13 +115,11 @@ AI_Tools/
     ├── ANALYSIS_INTERN_B.md                     ← Mid-program analysis: Week 4 convergence for Intern B
     ├── Skills/                                    ← Agent skills collection (16 skills)
     │   └── README.md                             ← Skills user guide — what each does
-    └── Library/                                 ← Curated reading from the Axolotl Research library
+    └── Library/                                 ← Curated reading list + hosted MAIA materials
         ├── INDEX.md                             ← Full index with relevance to each competency area
-        ├── Domain-A-Food-Systems/               ← Fermented foods, microbes & human health
-        ├── Domain-B-Tokenization/               ← Real-world asset (RWA) tokenization
-        ├── Complexity-Systems-Thinking/         ← Emergence, self-organization, ER modeling
-        ├── Research-Methodology/                ← Problem-solving, forecasting, verification
-        └── MAIA-Substack/                       ← Curated Substack readings + MA Guidebook
+        ├── Domain-A-Food-Systems/               ← Reading plan: fermented foods, microbes & health
+        ├── Domain-B-Tokenization/               ← Reading plan: real-world asset (RWA) tokenization
+        └── MAIA-Substack/                       ← Hosted: MA Guidebook + Substack posts
 ```
 
 ---
@@ -211,7 +209,7 @@ stateDiagram-v2
 |---------|--------------|
 | [`Program Architecture`](docs/diagrams/flowchart-program-architecture.md) | How interns, RPs, domains, tools, and docs connect |
 | [`Document Navigation`](docs/diagrams/flowchart-document-navigation.md) | Decision tree: which document to read when |
-| [`Library Structure`](docs/diagrams/flowchart-library-structure.md) | Simplified reading library — 5 folders, 110 files, domain mapping |
+| [`Library Structure`](docs/diagrams/flowchart-library-structure.md) | Reading library — hosted MAIA materials + curated reading lists, domain mapping |
 | [`Artifact Lifecycle`](docs/diagrams/state-artifact-lifecycle.md) | How artifacts move through curation |
 | [`Program Phases`](docs/diagrams/state-program-phases.md) | 8-week phase transitions with entry/exit criteria |
 

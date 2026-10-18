@@ -1,14 +1,14 @@
 # Internship Library — Curated Reading Index
 
-> These files come from the Axolotl Research library. They were selected because they may be useful, relevant, or of interest to interns working through the Summer 2026 program. They are not required reading — think of them as a shelf of books that the team has found valuable, organized by how they connect to the internship domains and competency areas defined in [`INTERNSHIP_SPECIFICATION.md`](../INTERNSHIP_SPECIFICATION.md).
+> These readings come from the Axolotl Research library. They were selected because they may be useful, relevant, or of interest to interns working through the Summer 2026 program. They are not required reading — think of them as a shelf of books that the team has found valuable, organized by how they connect to the internship domains and competency areas defined in [`INTERNSHIP_SPECIFICATION.md`](../INTERNSHIP_SPECIFICATION.md).
 >
-> These files serve a dual purpose. You can read them yourself, of course — but you can also feed them to AI agents as context. A PDF or markdown file from this library given to Cline, KiloCode, or Zed as a reference can ground the agent's output in real domain knowledge instead of generic hallucination. Use them as resources for your research sessions, not just as reading material.
+> **The full texts are no longer hosted here (removed 2026-10-17 for copyright compliance).** This repository is public, and the book and paper files previously in these folders were cleared only for sharing with program researchers under our library use. This index remains the curated reading list: every entry keeps its title and relevance note. Acquire the works through your library or retailer, then feed them to Cline, KiloCode, or Zed as context during research sessions. The materials we do host are our own: the [`MAIA-Substack/`](MAIA-Substack/) folder (MA Guidebook + posts).
 
 ### How to Use This Index
 
 1. **Find your domain.** Start with your domain's README (`Domain-A-Food-Systems/README.md` or `Domain-B-Tokenization/README.md`) for a curated, phased reading plan tailored to your specific research focus.
 2. **Use the relevance column.** Each file has a one-line explanation of why it matters for this program. If the reason resonates with your current research phase, read it.
-3. **Feed files to AI agents.** When researching a topic, give the relevant PDF or markdown file to Cline, KiloCode, or Zed as context. This produces better results than prompting without source material.
+3. **Feed sources to AI agents.** When researching a topic, give the relevant source — a reading you acquire through your library or retailer, or one of our hosted MAIA files — to Cline, KiloCode, or Zed as context. This produces better results than prompting without source material.
 4. **Don't read everything.** Browse the shelves, read what is relevant to your current research phase, skip the rest for now. You can always come back.
 
 ### Key Terms
@@ -26,12 +26,12 @@
 
 ## Folder Map
 
-| Folder | Internship Mapping | Files |
-|--------|--------------------|-------|
-| **Domain-A-Food-Systems** | Domain A: Fermented foods → microbes, nutrients, and human health connections | 8 |
-| **Domain-B-Tokenization** | Domain B: Real-world asset (RWA) tokenization — economics, valuation, cryptography, distributed systems | 8 |
-| **Complexity-Systems-Thinking** | Cross-cutting: entity-relationship (ER) modeling, semantic spaces, emergent behavior in both domains | 20 |
-| **Research-Methodology** | Research cycle, verification reflex, productive struggle, forecasting, valuation, problem-solving | 17 |
+| Folder | Internship Mapping | Hosted files |
+|--------|--------------------|--------------|
+| **Domain-A-Food-Systems** | Domain A: Fermented foods → microbes, nutrients, and human health connections | 1 (reading-plan README) |
+| **Domain-B-Tokenization** | Domain B: Real-world asset (RWA) tokenization — economics, valuation, cryptography, distributed systems | 1 (reading-plan README) |
+| **Complexity-Systems-Thinking** | Cross-cutting: entity-relationship (ER) modeling, semantic spaces, emergent behavior in both domains | folder removed — reading list below |
+| **Research-Methodology** | Research cycle, verification reflex, productive struggle, forecasting, valuation, problem-solving | folder removed — reading list below |
 | **MAIA-Substack/** | Curated readings on complexity, forecasting, learning, molecular biology, investment + MA Guidebook | 57 |
 
 ---

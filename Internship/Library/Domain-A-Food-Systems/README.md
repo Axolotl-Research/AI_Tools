@@ -4,6 +4,8 @@
 
 This reading list is organized in a suggested progression — from broad context through technical depth to synthesis frameworks. Readings marked ★ are recommended starting points.
 
+> **Note (2026-10-17):** The full-text PDFs referenced below are no longer hosted in this repository — removed for copyright compliance (this repo is public; the texts were cleared only for sharing with program researchers under our library use). This document remains the curated reading plan; see [`../INDEX.md`](../INDEX.md) for the full library reading list.
+
 ---
 
 ## Layer 1: Why Food Matters — The Evolutionary & Anthropological Context
@@ -62,4 +64,4 @@ These files live in other library folders but are directly relevant to your doma
 
 ---
 
-*Feed any of these PDFs to Cline, KiloCode, or Zed Agent as context during research sessions for grounded, source-anchored outputs.*
+*Acquire these readings through your library or retailer, then feed them to Cline, KiloCode, or Zed Agent as context during research sessions for grounded, source-anchored outputs.*

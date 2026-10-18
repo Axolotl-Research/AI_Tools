@@ -321,25 +321,25 @@ domain: "Internship Program Management"
 3. **Add your own discoveries.** When you find a great resource during your research, add it here. This file is meant to grow.
 4. **Use the tiers.** Start with 🟢 links when you are new to a topic. Graduate to 🟡 and 🔴 as your understanding deepens.
 5. **Ask AI tools to evaluate resources.** "Cline, is this link still current? Is there a better resource on this topic now?"
-6. **Pair online resources with Library books.** The [`Library/`](Library/) contains books and papers that complement these links. For each literacy area below, the Library has deeper readings you can feed to AI agents as context.
+6. **Pair online resources with Library readings.** The [`Library/`](Library/) reading list recommends books and papers that complement these links (full texts removed 2026-10-17 for copyright compliance — acquire them through your library or retailer). For each literacy area below, the Library recommends deeper readings you can feed to AI agents as context.
 
 ---
 
 ## Library Cross-References
 
-The online links above pair with the curated reading library at [`Library/`](Library/). Here is how they connect:
+The online links above pair with the curated reading list at [`Library/INDEX.md`](Library/INDEX.md) (full texts removed 2026-10-17 for copyright compliance — acquire recommended works through your library or retailer). Here is how they connect:
 
-| Literacy Area (above) | Library Folder | Key Resources |
+| Literacy Area (above) | Library Reading List | Key Recommended Readings |
 |----------------------|---------------|---------------|
-| §1 Git & GitHub Basics | — | No Library folder needed — use the online links and [`TOOL_QUICKSTART.md`](TOOL_QUICKSTART.md) |
-| §2 LLM Prompting | Research-Methodology | `outsmarting_liars.pdf` (verification), `Avoid_News_Dobelli.pdf` (information filtering) |
-| §3 LLM Model Ecosystem | MAIA-Substack | `the-master-algorithm.html`, `humans-need-not-apply.html`, `technological-capability-and-human.html` |
+| §1 Git & GitHub Basics | — | No Library reading needed — use the online links and [`TOOL_QUICKSTART.md`](TOOL_QUICKSTART.md) |
+| §2 LLM Prompting | Research-Methodology | `outsmarting_liars` (verification), `Avoid_News` (Dobelli — information filtering) |
+| §3 LLM Model Ecosystem | MAIA-Substack (hosted) | `the-master-algorithm.html`, `humans-need-not-apply.html`, `technological-capability-and-human.html` |
 | §4 MCP Tools & Agent Skills | — | See [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) for jargon demystification |
 | §5 ACP & A2A Agent Protocols | — | See [`AI_ALPHABET_SOUP.md`](AI_ALPHABET_SOUP.md) for jargon demystification |
-| §6 AI Workflow Transformation | Complexity-Systems-Thinking | `Toyota_Kata-Rother.pdf` (iterative improvement), `Everyday_Things-Don_Norman.pdf` (tool design) |
-| §7 Deterministic vs Probabilistic | Complexity-Systems-Thinking | `Probabilistic Graphical Models - Principles and Techniques.pdf`, Research-Methodology `Superforecasting_tetlock.pdf` |
-| §8 ER Modeling & Semantic Spaces | Complexity-Systems-Thinking | `1993_Kauffman_The+Origins+of+Order.pdf`, `essential_tension-bahar.md` |
-| §9 General Research Methodology | Research-Methodology | `George_Polya_How_To_Solve_It_.pdf`, `Larson_problem-solving.pdf`, `fermi-problems-guide.pdf` |
+| §6 AI Workflow Transformation | Complexity-Systems-Thinking | `Toyota Kata` (Rother — iterative improvement), `The Design of Everyday Things` (Norman — tool design) |
+| §7 Deterministic vs Probabilistic | Complexity-Systems-Thinking | `Probabilistic Graphical Models` (Koller & Friedman), Research-Methodology `Superforecasting` (Tetlock) |
+| §8 ER Modeling & Semantic Spaces | Complexity-Systems-Thinking | `The Origins of Order` (Kauffman), `The Essential Tension` (Bahar) |
+| §9 General Research Methodology | Research-Methodology | `How to Solve It` (Polya), `Problem-Solving Through Problems` (Larson), `fermi-problems-guide` |
 | §10 Domain-Specific Resources | Domain-A-Food-Systems / Domain-B-Tokenization | See [`Library/INDEX.md`](Library/INDEX.md) for full listing |
 
 ---

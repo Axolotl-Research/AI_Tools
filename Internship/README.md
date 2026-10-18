@@ -55,13 +55,11 @@ domain: "Internship Program Management"
 
 | Folder | Internship Mapping | Key Resources |
 |--------|--------------------|-------------|
-| [`Library/`](Library/) | **Curated reading library** — books and papers mapped to internship domains and competency areas | Interns (reference throughout program) |
-| [`Library/INDEX.md`](Library/INDEX.md) | **Library index** — every file with its relevance to the internship specification | Interns, Research Professionals |
-| [`Library/Domain-A-Food-Systems/`](Library/Domain-A-Food-Systems/) | Domain A: Fermented foods, microbes, nutrients & human health | Domain A interns |
-| [`Library/Domain-B-Tokenization/`](Library/Domain-B-Tokenization/) | Domain B: Real-world asset (RWA) tokenization | Domain B interns |
-| [`Library/Complexity-Systems-Thinking/`](Library/Complexity-Systems-Thinking/) | Cross-cutting: ER modeling, semantic spaces, emergent behavior; includes probabilistic thinking | All interns |
-| [`Library/Research-Methodology/`](Library/Research-Methodology/) | Research cycle, verification, forecasting, valuation, problem-solving | All interns |
-| [`Library/MAIA-Substack/`](Library/MAIA-Substack/) | Curated Substack readings + MA Guidebook | All interns |
+| [`Library/`](Library/) | **Curated reading list** — recommended books and papers mapped to internship domains and competency areas (full texts removed 2026-10-17 for copyright compliance) | Interns (reference throughout program) |
+| [`Library/INDEX.md`](Library/INDEX.md) | **Library index** — every recommended reading with its relevance to the internship specification | Interns, Research Professionals |
+| [`Library/Domain-A-Food-Systems/`](Library/Domain-A-Food-Systems/) | Domain A reading plan: Fermented foods, microbes, nutrients & human health | Domain A interns |
+| [`Library/Domain-B-Tokenization/`](Library/Domain-B-Tokenization/) | Domain B reading plan: Real-world asset (RWA) tokenization | Domain B interns |
+| [`Library/MAIA-Substack/`](Library/MAIA-Substack/) | Hosted: our Substack readings + MA Guidebook | All interns |
 
 ### Agent Skills
 
@@ -236,7 +234,7 @@ Detailed program and process diagrams are in [`docs/diagrams/`](../docs/diagrams
 |---------|--------------|
 | [`Program Architecture`](../docs/diagrams/flowchart-program-architecture.md) | How interns, RPs, domains, tools, and documents connect |
 | [`Document Navigation`](../docs/diagrams/flowchart-document-navigation.md) | Decision tree: which document to read when |
-| [`Library Structure`](../docs/diagrams/flowchart-library-structure.md) | Simplified reading library: 5 folders, 110 files, domain mapping |
+| [`Library Structure`](../docs/diagrams/flowchart-library-structure.md) | Reading library: hosted MAIA materials + curated reading lists, domain mapping |
 | [`Artifact Lifecycle`](../docs/diagrams/state-artifact-lifecycle.md) | How artifacts move through curation pipeline |
 | [`Program Phases`](../docs/diagrams/state-program-phases.md) | 8-week phase transitions with entry/exit criteria |
 
